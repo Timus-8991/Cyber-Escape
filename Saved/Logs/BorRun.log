@@ -405,3 +405,119 @@ LogInit: Object subsystem initialized
 [2018.06.17-19.01.17:827][648]LogSourceControl: Warning: '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/' is not part of a Git repository
 [2018.06.17-19.01.59:932][806]SourceControl: Source control is disabled
 [2018.06.17-19.01.59:932][806]LogSlate: Window 'Source Control Login' being destroyed
+[2018.06.17-19.15.13:975][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.17-19.15.15:307][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.17-19.15.16:842][767]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021fc0be3f40, Size=16
+[2018.06.17-19.15.16:844][767]Cmd: MAP LOAD FILE="../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.17-19.15.16:855][767]LogSlate: Took 0.000656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.17-19.15.16:887][767]LightingResults: New page: Lighting Build
+[2018.06.17-19.15.16:890][767]LoadErrors: New page: Loading map: BotRunLVL1.umap
+[2018.06.17-19.15.16:895][767]MapCheck: New page: Map Check
+[2018.06.17-19.15.16:895][767]LightingResults: New page: Lighting Build
+[2018.06.17-19.15.16:938][767]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
+[2018.06.17-19.15.16:939][767]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap.
+[2018.06.17-19.15.16:939][767]LoadErrors: Error: /Game/BotRunLVL1 : Can't find file for asset. /Game/BotRunLVL1_BuiltData
+[2018.06.17-19.15.16:941][767]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
+[2018.06.17-19.15.16:942][767]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap.
+[2018.06.17-19.15.16:952][767]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
+[2018.06.17-19.15.16:953][767]LoadErrors: Failed to load /Game/BotRunLVL1_BuiltData.BotRunLVL1_BuiltData Referenced by PersistentLevel
+[2018.06.17-19.15.16:953][767]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading NULL.
+[2018.06.17-19.15.16:961][767]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.17-19.15.17:086][767]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.17-19.15.17:229][767]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.17-19.15.17:381][767]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.279ms to complete.
+[2018.06.17-19.15.17:381][767]LogFileHelpers: Loading map 'BotRunLVL1' took 0.537
+[2018.06.17-19.15.17:384][767]LogSlate: Window 'Open Level' being destroyed
+[2018.06.17-19.15.31:749][216]LogSlate: Window 'Message Log' being destroyed
+[2018.06.17-19.15.31:761][216]LogSlate: Window 'Message Log' being destroyed
+[2018.06.17-19.15.34:886][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.17-19.15.35:941][351]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.17-19.15.35:983][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.17-19.15.35:984][351]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:15:35 am)
+[2018.06.17-19.15.35:984][351]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.17-19.15.35:988][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004473s)
+[2018.06.17-19.15.35:989][351]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.17-19.15.35:990][351]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2018.06.17-19.15.35:990][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.006061s)
+[2018.06.17-19.15.36:006][351]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.17-19.15.36:024][351]LogInit: FAudioDevice initialized.
+[2018.06.17-19.15.36:073][351]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.17-19.15.36:075][351]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-00.45.36
+[2018.06.17-19.15.36:075][351]LogWorld: Bringing up level for play took: 0.000693
+[2018.06.17-19.15.36:085][351]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.06.17-19.15.36:090][351]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.242
+[2018.06.17-19.15.42:937][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.16.09:121][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.16.17:539][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.16.22:766][502]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
+[2018.06.17-19.16.23:150][502]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fff2bc428, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.17-19.16.23:151][502]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fff2bc420, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.17-19.16.23:749][502]LogSlate: Took 0.060119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.17-19.16.29:565][647]LogRenderer: Reallocating scene render targets to support 1220x540 Format 10 NumSamples 1 (Frame:1).
+[2018.06.17-19.16.38:734][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.17-19.16.44:679][953]LogSlate: Took 0.060737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.17-19.18.15:341][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.18.29:196][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.19.03:220][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.19.45:017][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.19.49:133][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.19.56:256][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.20.41:131][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.20.48:383][951]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ffb2e4110, Size=4, Default__SKEL_Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.SKEL_Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.17-19.21.52:208][676]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.17-19.22.08:117][247]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.17-19.24.21:417][ 21]BlueprintLog: New page: Compile Master_Tile
+[2018.06.17-19.24.21:429][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ffb2e4110, Size=4
+[2018.06.17-19.24.21:430][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x000002201917ba08, Size=4, Default__SKEL_Master_Tile_C Function /Engine/Transient.REINST_SKEL_Master_Tile_C_34:ExecuteUbergraph_Master_Tile
+[2018.06.17-19.24.21:468][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x000002201a791ec0, Size=224, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.17-19.24.22:178][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002201917ba08, Size=4
+[2018.06.17-19.24.24:164][ 67]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.17-19.24.24:177][ 67]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.17-19.24.26:392][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.24.26:481][124]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.17-19.24.26:538][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.17-19.24.26:538][124]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:24:26 am)
+[2018.06.17-19.24.26:539][124]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.17-19.24.26:543][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004564s)
+[2018.06.17-19.24.26:545][124]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.17-19.24.26:546][124]LogPlayLevel: PIE: World Init took: (0.002709s)
+[2018.06.17-19.24.26:546][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.007711s)
+[2018.06.17-19.24.26:594][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.17-19.24.26:623][124]LogInit: FAudioDevice initialized.
+[2018.06.17-19.24.26:668][124]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.17-19.24.26:671][124]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-00.54.26
+[2018.06.17-19.24.26:671][124]LogWorld: Bringing up level for play took: 0.001443
+[2018.06.17-19.24.26:752][124]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.904
+[2018.06.17-19.24.44:001][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.25.13:682][439]BlueprintLog: New page: Compile Master_Tile
+[2018.06.17-19.25.13:707][439]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002201a791ec0, Size=224
+[2018.06.17-19.25.13:707][439]LogUObjectGlobals: Created PersistentFrame Addr=0x000002200db80800, Size=224, Default__Master_Tile_C Function /Engine/Transient.REINST_Master_Tile_C_44:ExecuteUbergraph_Master_Tile
+[2018.06.17-19.25.13:712][439]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ffde31440, Size=224, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.17-19.25.15:098][457]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.17-19.25.15:117][457]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.17-19.25.16:635][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.25.16:741][498]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.17-19.25.16:784][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.17-19.25.16:784][498]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:25:16 am)
+[2018.06.17-19.25.16:785][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.17-19.25.16:790][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005583s)
+[2018.06.17-19.25.16:792][498]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.17-19.25.16:793][498]LogPlayLevel: PIE: World Init took: (0.002196s)
+[2018.06.17-19.25.16:793][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.008174s)
+[2018.06.17-19.25.16:844][498]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.17-19.25.16:875][498]LogInit: FAudioDevice initialized.
+[2018.06.17-19.25.16:916][498]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.17-19.25.16:918][498]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-00.55.16
+[2018.06.17-19.25.16:918][498]LogWorld: Bringing up level for play took: 0.001168
+[2018.06.17-19.25.16:932][498]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 1.083
+[2018.06.17-19.25.17:179][499]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.072623 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.17-19.25.29:718][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.25.47:428][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.17-19.26.41:364][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.233
+[2018.06.17-19.26.41:376][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Ruuner/Blueprints/Master_Tile] ([1] browsable assets)...
+[2018.06.17-19.26.41:518][566]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Ruuner/Blueprints/Master_Tile.Master_Tile]
+[2018.06.17-19.26.41:519][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ruuner/Blueprints/Master_Tile]
+[2018.06.17-19.26.41:594][566]LogSavePackage: Save=59.32ms
+[2018.06.17-19.26.41:594][566]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Master_Tile_Auto12B33CAB643DA11CE205B8BA4A8E7440E.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto1.uasset'
+[2018.06.17-19.26.41:597][566]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto1.uasset
+[2018.06.17-19.26.41:597][566]LogFileHelpers: Auto-saving content packages took 0.229
