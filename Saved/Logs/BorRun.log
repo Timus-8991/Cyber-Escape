@@ -1371,3 +1371,331 @@ Script call stack:
 [2018.06.18-09.10.02:156][ 91]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
 [2018.06.18-09.10.03:163][ 93]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
 [2018.06.18-09.10.05:727][101]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-13.47.30:530][124]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868d880, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.33:652][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868d880, Size=4
+[2018.06.18-13.47.33:681][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f14fdb2698, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Engine/Transient.REINST_SKEL_ThirdPersonGameMode_C_138:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.33:683][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f14fdb3ae8, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.40:686][461]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f14fdb3ae8, Size=4
+[2018.06.18-13.47.40:687][461]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868e9f8, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Engine/Transient.REINST_SKEL_ThirdPersonGameMode_C_140:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.40:692][461]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868efb8, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.45:822][596]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868efb8, Size=4
+[2018.06.18-13.47.45:822][596]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868efb8, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Engine/Transient.REINST_SKEL_ThirdPersonGameMode_C_142:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.45:830][596]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868e8c8, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.57:718][919]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868e8c8, Size=4
+[2018.06.18-13.47.57:718][919]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868e8c8, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Engine/Transient.REINST_SKEL_ThirdPersonGameMode_C_144:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.47.57:725][919]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868d550, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.48.01:949][ 23]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2018.06.18-13.48.01:964][ 23]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2018.06.18-13.48.48:235][475]BlueprintLog: New page: Compile Master_Tile
+[2018.06.18-13.48.48:312][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868d550, Size=4
+[2018.06.18-13.48.48:312][475]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f14ea4fef0, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Engine/Transient.REINST_SKEL_ThirdPersonGameMode_C_147:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.48.48:349][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18d819360, Size=224
+[2018.06.18-13.48.48:350][475]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f17f5d9a60, Size=224, Default__Master_Tile_C Function /Engine/Transient.REINST_Master_Tile_C_150:ExecuteUbergraph_Master_Tile
+[2018.06.18-13.48.48:387][475]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f118ff0400, Size=248, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.18-13.48.49:133][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f14ea4fef0, Size=4
+[2018.06.18-13.48.49:133][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868e8c8, Size=4
+[2018.06.18-13.48.49:133][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868efb8, Size=4
+[2018.06.18-13.48.49:133][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868e9f8, Size=4
+[2018.06.18-13.48.49:133][475]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f14fdb2698, Size=4
+[2018.06.18-13.48.50:428][501]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-13.48.50:450][501]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-13.48.57:218][610]LogSlate: Took 0.022954 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.06.18-13.48.58:693][665]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868e3b0, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.02:503][776]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868e3b0, Size=4
+[2018.06.18-13.49.02:503][776]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18539af30, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Engine/Transient.REINST_SKEL_ThirdPersonGameMode_C_154:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.02:510][776]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18539b678, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.06:428][867]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2018.06.18-13.49.06:483][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18539b678, Size=4
+[2018.06.18-13.49.06:483][867]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18539b678, Size=4, Default__SKEL_ThirdPersonGameMode_C Function /Engine/Transient.REINST_SKEL_ThirdPersonGameMode_C_157:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.06:500][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f145bec4f0, Size=16
+[2018.06.18-13.49.06:500][867]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1638a3b30, Size=16, Default__ThirdPersonGameMode_C Function /Engine/Transient.REINST_ThirdPersonGameMode_C_160:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.06:524][867]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1638a02f0, Size=16, Default__ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.06:931][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f17f5d9a60, Size=224
+[2018.06.18-13.49.06:931][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18539b678, Size=4
+[2018.06.18-13.49.06:931][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18539af30, Size=4
+[2018.06.18-13.49.12:076][988]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2018.06.18-13.49.12:118][988]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1638a02f0, Size=16
+[2018.06.18-13.49.12:119][988]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f13ee717e0, Size=16, ThirdPersonGameMode_C_13 Function /Engine/Transient.REINST_ThirdPersonGameMode_C_166:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.12:128][988]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f13ee70500, Size=16, Default__ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.49.13:301][998]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2018.06.18-13.49.13:320][998]LogSlate: Window 'ThirdPersonGameMode*' being destroyed
+[2018.06.18-13.51.53:500][223]BlueprintLog: New page: Compile Master_Tile
+[2018.06.18-13.51.53:563][223]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f118ff0400, Size=248
+[2018.06.18-13.51.53:563][223]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1b61fc900, Size=248, Default__Master_Tile_C Function /Engine/Transient.REINST_Master_Tile_C_172:ExecuteUbergraph_Master_Tile
+[2018.06.18-13.51.53:571][223]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f180d56400, Size=248, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.18-13.51.55:180][244]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-13.51.55:201][244]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-13.51.56:231][266]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-13.51.56:283][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-13.51.56:284][266]PIE: New page: PIE session: BotRunLVL1 (19-Jun-2018 12:51:56 am)
+[2018.06.18-13.51.56:284][266]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-13.51.56:292][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007806s)
+[2018.06.18-13.51.56:297][266]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-13.51.56:298][266]LogPlayLevel: PIE: World Init took: (0.005480s)
+[2018.06.18-13.51.56:298][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.013820s)
+[2018.06.18-13.51.56:335][266]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1b61fc900, Size=248
+[2018.06.18-13.51.56:343][266]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-13.51.56:370][266]LogInit: FAudioDevice initialized.
+[2018.06.18-13.51.56:412][266]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-13.51.56:416][266]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-19.21.56
+[2018.06.18-13.51.56:416][266]LogWorld: Bringing up level for play took: 0.001868
+[2018.06.18-13.51.56:449][266]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 1.03
+[2018.06.18-13.52.18:053][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-13.52.27:307][ 83]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-13.52.27:875][ 86]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-13.52.27:969][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-13.52.32:897][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1638a3b30, Size=16
+[2018.06.18-13.52.32:898][220]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f13ee717e0, Size=16
+[2018.06.18-13.52.58:440][305]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.058
+[2018.06.18-13.52.58:443][305]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2018.06.18-13.52.58:443][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2018.06.18-13.52.58:546][305]LogSavePackage: Save=81.44ms
+[2018.06.18-13.52.58:546][305]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonGameMode_Auto716AA4FF04A9E623FF44CC5BF2B6FFD6B.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto7.uasset'
+[2018.06.18-13.52.58:548][305]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto7.uasset
+[2018.06.18-13.52.58:552][305]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Ruuner/Blueprints/Master_Tile] ([1] browsable assets)...
+[2018.06.18-13.52.58:693][305]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Ruuner/Blueprints/Master_Tile.Master_Tile]
+[2018.06.18-13.52.58:694][305]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ruuner/Blueprints/Master_Tile]
+[2018.06.18-13.52.58:808][305]LogSavePackage: Save=82.20ms
+[2018.06.18-13.52.58:808][305]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Master_Tile_Auto71821A34743184A9FD015148157234604.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto7.uasset'
+[2018.06.18-13.52.58:810][305]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto7.uasset
+[2018.06.18-13.52.58:811][305]LogFileHelpers: Auto-saving content packages took 0.370
+[2018.06.18-13.53.55:716][253]BlueprintLog: New page: Compile Master_Tile
+[2018.06.18-13.53.55:760][253]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f180d56400, Size=248
+[2018.06.18-13.53.55:760][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18c873a00, Size=248, Default__Master_Tile_C Function /Engine/Transient.REINST_Master_Tile_C_178:ExecuteUbergraph_Master_Tile
+[2018.06.18-13.53.55:767][253]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1733ff9c0, Size=280, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.18-13.53.57:881][286]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-13.53.57:894][286]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-13.54.00:168][344]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-13.54.00:225][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-13.54.00:226][344]PIE: New page: PIE session: BotRunLVL1 (19-Jun-2018 12:54:00 am)
+[2018.06.18-13.54.00:226][344]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-13.54.00:233][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006475s)
+[2018.06.18-13.54.00:235][344]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-13.54.00:236][344]LogPlayLevel: PIE: World Init took: (0.002984s)
+[2018.06.18-13.54.00:236][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.009983s)
+[2018.06.18-13.54.00:293][344]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18c873a00, Size=248
+[2018.06.18-13.54.00:301][344]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-13.54.00:338][344]LogInit: FAudioDevice initialized.
+[2018.06.18-13.54.00:384][344]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-13.54.00:387][344]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-19.24.00
+[2018.06.18-13.54.00:387][344]LogWorld: Bringing up level for play took: 0.001415
+[2018.06.18-13.54.00:410][344]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.99
+[2018.06.18-13.54.01:056][355]LogBlueprintUserMessages: [Master_Tile_C_0] 1
+[2018.06.18-13.54.01:857][381]LogBlueprintUserMessages: [Master_Tile_C_1] 2
+[2018.06.18-13.54.02:680][407]LogBlueprintUserMessages: [Master_Tile_C_2] 3
+[2018.06.18-13.54.03:533][432]LogBlueprintUserMessages: [Master_Tile_C_3] 4
+[2018.06.18-13.54.04:375][456]LogBlueprintUserMessages: [Master_Tile_C_4] 5
+[2018.06.18-13.54.05:181][479]LogBlueprintUserMessages: [Master_Tile_C_5] 6
+[2018.06.18-13.54.06:021][503]LogBlueprintUserMessages: [Master_Tile_C_6] 7
+[2018.06.18-13.54.23:409][826]BlueprintLog: New page: Compile ThirdPersonGameMode
+[2018.06.18-13.54.23:452][826]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f13ee70500, Size=16
+[2018.06.18-13.54.23:452][826]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1c22b9370, Size=16, Default__ThirdPersonGameMode_C Function /Engine/Transient.REINST_ThirdPersonGameMode_C_184:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.54.23:462][826]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1c22b9930, Size=16, Default__ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-13.54.26:423][888]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-13.54.26:461][888]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-13.54.26:461][888]PIE: New page: PIE session: BotRunLVL1 (19-Jun-2018 12:54:26 am)
+[2018.06.18-13.54.26:461][888]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-13.54.26:465][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003988s)
+[2018.06.18-13.54.26:467][888]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-13.54.26:468][888]LogPlayLevel: PIE: World Init took: (0.002537s)
+[2018.06.18-13.54.26:468][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.006839s)
+[2018.06.18-13.54.26:510][888]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-13.54.26:533][888]LogInit: FAudioDevice initialized.
+[2018.06.18-13.54.26:574][888]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-13.54.26:575][888]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-19.24.26
+[2018.06.18-13.54.26:576][888]LogWorld: Bringing up level for play took: 0.000927
+[2018.06.18-13.54.26:589][888]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 -0.83
+[2018.06.18-13.54.26:943][889]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073853 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-13.54.27:403][903]LogBlueprintUserMessages: [Master_Tile_C_0] 15
+[2018.06.18-13.54.28:236][927]LogBlueprintUserMessages: [Master_Tile_C_1] 30
+[2018.06.18-13.54.29:055][951]LogBlueprintUserMessages: [Master_Tile_C_2] 45
+[2018.06.18-13.54.29:912][976]LogBlueprintUserMessages: [Master_Tile_C_3] 60
+[2018.06.18-13.57.37:048][123]LogEditorTransaction: Undo Edit Font Material
+[2018.06.18-13.59.25:033][ 95]BlueprintLog: New page: Compile RunnerHUD
+[2018.06.18-13.59.43:038][466]LogSlate: Window 'RunnerHUD*' being destroyed
+[2018.06.18-13.59.43:058][466]LogSlate: Window 'RunnerHUD*' being destroyed
+[2018.06.18-13.59.58:163][836]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1c2e64b30, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.00.19:983][460]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-14.00.20:485][460]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-14.00.59:163][535]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1c2e64b30, Size=4
+[2018.06.18-14.00.59:164][535]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f13edf0288, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_196:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.00.59:179][535]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f13edf33b0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.01.22:557][ 17]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-14.01.22:618][ 17]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f13edf33b0, Size=4
+[2018.06.18-14.01.22:618][ 17]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12c7ddba8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_199:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.01.22:672][ 17]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f185577880, Size=520
+[2018.06.18-14.01.22:672][ 17]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f17e756480, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_202:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.01.22:747][ 17]LogBlueprint: Error: [Compiler ThirdPersonCharacter] This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2018.06.18-14.01.22:769][ 17]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1ac59bd80, Size=528, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.01.23:634][ 17]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f12c7ddba8, Size=4
+[2018.06.18-14.01.23:635][ 17]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f13edf0288, Size=4
+[2018.06.18-14.01.23:699][ 17]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [4422.04] Compile of ThirdPersonCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 1,143 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.06.18-14.01.23:831][ 18]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-14.01.23:835][ 18]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-14.02.14:189][572]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-14.02.14:251][572]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1ac59bd80, Size=528
+[2018.06.18-14.02.14:252][572]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1c54b1f80, Size=528, ThirdPersonCharacter_C_498 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_208:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.02.14:266][572]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f145f77880, Size=528, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-14.02.16:143][596]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-14.02.16:155][596]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-14.02.17:092][630]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-14.02.17:387][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-14.02.17:388][630]PIE: New page: PIE session: BotRunLVL1 (19-Jun-2018 1:02:17 am)
+[2018.06.18-14.02.17:388][630]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-14.02.17:398][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009735s)
+[2018.06.18-14.02.17:400][630]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-14.02.17:401][630]LogPlayLevel: PIE: World Init took: (0.002570s)
+[2018.06.18-14.02.17:401][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.012862s)
+[2018.06.18-14.02.17:458][630]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-14.02.17:489][630]LogInit: FAudioDevice initialized.
+[2018.06.18-14.02.17:534][630]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-14.02.17:537][630]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-19.32.17
+[2018.06.18-14.02.17:538][630]LogWorld: Bringing up level for play took: 0.001852
+[2018.06.18-14.02.17:599][630]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.18
+[2018.06.18-14.02.17:647][631]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073853 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-14.02.18:096][647]LogBlueprintUserMessages: [Master_Tile_C_0] 15
+[2018.06.18-14.02.18:938][675]LogBlueprintUserMessages: [Master_Tile_C_1] 30
+[2018.06.18-14.02.19:762][702]LogBlueprintUserMessages: [Master_Tile_C_2] 45
+[2018.06.18-14.02.20:592][727]LogBlueprintUserMessages: [Master_Tile_C_3] 60
+[2018.06.18-14.02.21:421][751]LogBlueprintUserMessages: [Master_Tile_C_4] 75
+[2018.06.18-14.02.22:265][775]LogBlueprintUserMessages: [Master_Tile_C_5] 90
+[2018.06.18-14.02.23:104][798]LogBlueprintUserMessages: [Master_Tile_C_6] 105
+[2018.06.18-14.02.23:934][822]LogBlueprintUserMessages: [Master_Tile_C_7] 120
+[2018.06.18-14.02.24:752][846]LogBlueprintUserMessages: [Master_Tile_C_8] 135
+[2018.06.18-14.02.25:604][871]LogBlueprintUserMessages: [Master_Tile_C_9] 150
+[2018.06.18-14.02.26:426][895]LogBlueprintUserMessages: [Master_Tile_C_10] 165
+[2018.06.18-14.02.27:286][920]LogBlueprintUserMessages: [Master_Tile_C_11] 180
+[2018.06.18-14.02.28:092][943]LogBlueprintUserMessages: [Master_Tile_C_12] 195
+[2018.06.18-14.02.28:933][967]LogBlueprintUserMessages: [Master_Tile_C_13] 210
+[2018.06.18-14.02.29:779][991]LogBlueprintUserMessages: [Master_Tile_C_14] 225
+[2018.06.18-14.02.30:587][ 14]LogBlueprintUserMessages: [Master_Tile_C_15] 240
+[2018.06.18-14.02.31:447][ 37]LogBlueprintUserMessages: [Master_Tile_C_16] 255
+[2018.06.18-14.02.32:276][ 60]LogBlueprintUserMessages: [Master_Tile_C_17] 270
+[2018.06.18-14.02.33:101][ 83]LogBlueprintUserMessages: [Master_Tile_C_18] 285
+[2018.06.18-14.02.33:926][106]LogBlueprintUserMessages: [Master_Tile_C_19] 300
+[2018.06.18-14.02.34:822][131]LogBlueprintUserMessages: [Master_Tile_C_20] 315
+[2018.06.18-14.02.35:684][155]LogBlueprintUserMessages: [Master_Tile_C_21] 330
+[2018.06.18-14.02.36:583][180]LogBlueprintUserMessages: [Master_Tile_C_22] 345
+[2018.06.18-14.02.37:441][204]LogBlueprintUserMessages: [Master_Tile_C_23] 360
+[2018.06.18-14.02.38:298][228]LogBlueprintUserMessages: [Master_Tile_C_24] 375
+[2018.06.18-14.02.39:127][251]LogBlueprintUserMessages: [Master_Tile_C_25] 390
+[2018.06.18-14.02.39:952][274]LogBlueprintUserMessages: [Master_Tile_C_26] 405
+[2018.06.18-14.02.40:775][297]LogBlueprintUserMessages: [Master_Tile_C_27] 420
+[2018.06.18-14.02.41:602][320]LogBlueprintUserMessages: [Master_Tile_C_28] 435
+[2018.06.18-14.02.42:441][343]LogBlueprintUserMessages: [Master_Tile_C_29] 450
+[2018.06.18-14.02.43:289][366]LogBlueprintUserMessages: [Master_Tile_C_30] 465
+[2018.06.18-14.02.44:103][388]LogBlueprintUserMessages: [Master_Tile_C_31] 480
+[2018.06.18-14.02.44:952][411]LogBlueprintUserMessages: [Master_Tile_C_32] 495
+[2018.06.18-14.02.45:798][434]LogBlueprintUserMessages: [Master_Tile_C_33] 510
+[2018.06.18-14.02.46:612][456]LogBlueprintUserMessages: [Master_Tile_C_34] 525
+[2018.06.18-14.02.47:456][479]LogBlueprintUserMessages: [Master_Tile_C_35] 540
+[2018.06.18-14.02.48:271][501]LogBlueprintUserMessages: [Master_Tile_C_36] 555
+[2018.06.18-14.02.49:126][524]LogBlueprintUserMessages: [Master_Tile_C_37] 570
+[2018.06.18-14.02.49:937][546]LogBlueprintUserMessages: [Master_Tile_C_38] 585
+[2018.06.18-14.02.50:791][569]LogBlueprintUserMessages: [Master_Tile_C_39] 600
+[2018.06.18-14.02.51:611][591]LogBlueprintUserMessages: [Master_Tile_C_40] 615
+[2018.06.18-14.02.52:468][614]LogBlueprintUserMessages: [Master_Tile_C_41] 630
+[2018.06.18-14.02.53:290][636]LogBlueprintUserMessages: [Master_Tile_C_42] 645
+[2018.06.18-14.02.54:109][658]LogBlueprintUserMessages: [Master_Tile_C_43] 660
+[2018.06.18-14.02.54:591][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-14.03.28:614][320]BlueprintLog: New page: Compile RunnerHUD
+[2018.06.18-14.03.31:187][375]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-14.03.31:233][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-14.03.31:233][375]PIE: New page: PIE session: BotRunLVL1 (19-Jun-2018 1:03:31 am)
+[2018.06.18-14.03.31:233][375]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-14.03.31:238][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005060s)
+[2018.06.18-14.03.31:240][375]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-14.03.31:240][375]LogPlayLevel: PIE: World Init took: (0.001517s)
+[2018.06.18-14.03.31:240][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.006927s)
+[2018.06.18-14.03.31:284][375]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-14.03.31:308][375]LogInit: FAudioDevice initialized.
+[2018.06.18-14.03.31:345][375]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-14.03.31:346][375]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-19.33.31
+[2018.06.18-14.03.31:347][375]LogWorld: Bringing up level for play took: 0.001062
+[2018.06.18-14.03.31:360][375]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 -0.058
+[2018.06.18-14.03.32:027][391]LogBlueprintUserMessages: [Master_Tile_C_0] 15
+[2018.06.18-14.03.32:876][414]LogBlueprintUserMessages: [Master_Tile_C_1] 30
+[2018.06.18-14.03.33:716][437]LogBlueprintUserMessages: [Master_Tile_C_2] 45
+[2018.06.18-14.03.34:549][460]LogBlueprintUserMessages: [Master_Tile_C_3] 60
+[2018.06.18-14.03.35:350][482]LogBlueprintUserMessages: [Master_Tile_C_4] 75
+[2018.06.18-14.03.36:180][505]LogBlueprintUserMessages: [Master_Tile_C_5] 90
+[2018.06.18-14.03.37:051][529]LogBlueprintUserMessages: [Master_Tile_C_6] 105
+[2018.06.18-14.03.37:850][551]LogBlueprintUserMessages: [Master_Tile_C_7] 120
+[2018.06.18-14.03.38:703][574]LogBlueprintUserMessages: [Master_Tile_C_8] 135
+[2018.06.18-14.03.39:522][596]LogBlueprintUserMessages: [Master_Tile_C_9] 150
+[2018.06.18-14.03.40:378][619]LogBlueprintUserMessages: [Master_Tile_C_10] 165
+[2018.06.18-14.03.41:184][641]LogBlueprintUserMessages: [Master_Tile_C_11] 180
+[2018.06.18-14.03.41:885][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-14.03.56:795][889]LogEditorTransaction: Undo Edit Font Material
+[2018.06.18-14.03.57:948][921]LogEditorTransaction: Undo Edit Font Material
+[2018.06.18-14.04.22:250][413]LogEditorTransaction: Undo Edit Font Material
+[2018.06.18-14.05.04:073][361]LogSlate: Window 'RunnerHUD*' being destroyed
+[2018.06.18-14.05.04:086][361]LogSlate: Window 'RunnerHUD*' being destroyed
+[2018.06.18-14.05.14:804][552]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-14.05.15:308][552]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-14.05.15:818][553]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-14.05.16:329][553]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-14.05.23:541][731]BlueprintLog: New page: Compile Master_Tile
+[2018.06.18-14.05.23:593][731]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1733ff9c0, Size=280
+[2018.06.18-14.05.23:593][731]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f185b49300, Size=280, Default__Master_Tile_C Function /Engine/Transient.REINST_Master_Tile_C_222:ExecuteUbergraph_Master_Tile
+[2018.06.18-14.05.23:601][731]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f145aaf600, Size=256, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.18-14.05.25:353][753]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-14.05.25:375][753]LogSlate: Window 'Master_Tile*' being destroyed
+[2018.06.18-14.05.26:324][772]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-14.05.26:382][772]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.06.18-14.05.26:413][772]LogPlayLevel: [PlayLevel] Compiling RunnerHUD before play...
+[2018.06.18-14.05.26:754][772]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f185b49300, Size=280
+[2018.06.18-14.05.26:756][772]LogPlayLevel: PlayLevel: Blueprint regeneration took 374 ms (1 blueprints)
+[2018.06.18-14.05.26:757][772]PIE: New page: PIE session: BotRunLVL1 (19-Jun-2018 1:05:26 am)
+[2018.06.18-14.05.26:757][772]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-14.05.26:762][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005005s)
+[2018.06.18-14.05.26:764][772]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-14.05.26:765][772]LogPlayLevel: PIE: World Init took: (0.002265s)
+[2018.06.18-14.05.26:765][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.007717s)
+[2018.06.18-14.05.26:810][772]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-14.05.26:837][772]LogInit: FAudioDevice initialized.
+[2018.06.18-14.05.26:880][772]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-14.05.26:882][772]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-19.35.26
+[2018.06.18-14.05.26:882][772]LogWorld: Bringing up level for play took: 0.001052
+[2018.06.18-14.05.26:908][772]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 1.489
+[2018.06.18-14.05.26:962][773]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.074577 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-14.05.40:487][138]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-14.06.06:220][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.066
+[2018.06.18-14.06.06:225][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.18-14.06.06:392][243]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.18-14.06.06:393][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.06.18-14.06.06:644][243]LogSavePackage: Save=227.33ms
+[2018.06.18-14.06.06:644][243]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonCharacter_Auto8D978CD0A44FA4DE0ED167B83D4D36CFF.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto8.uasset'
+[2018.06.18-14.06.06:649][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto8.uasset
+[2018.06.18-14.06.06:651][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode] ([1] browsable assets)...
+[2018.06.18-14.06.06:652][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode]
+[2018.06.18-14.06.06:758][243]LogSavePackage: Save=72.40ms
+[2018.06.18-14.06.06:758][243]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonGameMode_Auto8D6BBA3D048B06ED5DD5540A15DD2E831.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto8.uasset'
+[2018.06.18-14.06.06:763][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode_Auto8.uasset
+[2018.06.18-14.06.06:765][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Ruuner/Blueprints/Master_Tile] ([1] browsable assets)...
+[2018.06.18-14.06.06:927][243]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Ruuner/Blueprints/Master_Tile.Master_Tile]
+[2018.06.18-14.06.06:927][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ruuner/Blueprints/Master_Tile]
+[2018.06.18-14.06.07:101][243]LogSavePackage: Save=134.35ms
+[2018.06.18-14.06.07:101][243]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Master_Tile_Auto807FFB0C247C005ED1AD5A1B2C40C00A2.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto8.uasset'
+[2018.06.18-14.06.07:105][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto8.uasset
+[2018.06.18-14.06.07:107][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Ruuner/Blueprints/RunnerHUD] ([1] browsable assets)...
+[2018.06.18-14.06.07:107][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ruuner/Blueprints/RunnerHUD]
+[2018.06.18-14.06.07:191][243]LogSavePackage: Save=76.94ms
+[2018.06.18-14.06.07:191][243]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/RunnerHUD_Auto84E45B1424E3385D26F8746B0F2F1186C.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/RunnerHUD_Auto8.uasset'
+[2018.06.18-14.06.07:194][243]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/RunnerHUD_Auto8.uasset
+[2018.06.18-14.06.07:195][243]LogFileHelpers: Auto-saving content packages took 0.972
+[2018.06.18-14.07.19:429][518]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-14.07.19:465][518]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-14.07.19:466][518]PIE: New page: PIE session: BotRunLVL1 (19-Jun-2018 1:07:19 am)
+[2018.06.18-14.07.19:466][518]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-14.07.19:520][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053336s)
+[2018.06.18-14.07.19:523][518]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-14.07.19:524][518]LogPlayLevel: PIE: World Init took: (0.003900s)
+[2018.06.18-14.07.19:524][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.057833s)
+[2018.06.18-14.07.19:588][518]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-14.07.19:611][518]LogInit: FAudioDevice initialized.
+[2018.06.18-14.07.19:649][518]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-14.07.19:652][518]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-19.37.19
+[2018.06.18-14.07.19:652][518]LogWorld: Bringing up level for play took: 0.001035
+[2018.06.18-14.07.19:669][518]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.25
+[2018.06.18-14.08.42:534][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
