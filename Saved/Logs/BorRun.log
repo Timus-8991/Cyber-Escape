@@ -1,4 +1,4 @@
-﻿Log file open, 06/18/18 00:28:23
+﻿Log file open, 06/18/18 12:44:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BorRun
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1174883712) SRandInit(1174883712).
+LogInit: Display: RandInit(1376891469) SRandInit(1376891470).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.206460
+LogStats: Stats thread started at 0.215209
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +5:30, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  2.388s to configure plugins.
+LogStreaming: Display: Took  1.889s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -219,305 +219,1155 @@ LogInit: Branch Name: ++UE4+Release-4.19
 LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.17-18.58.26:465][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.17-18.58.26:465][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.17-18.58.26:509][  0]LogInit: Computer: LAPTOP-EQTDUEGN
-[2018.06.17-18.58.26:509][  0]LogInit: User: Sumit
-[2018.06.17-18.58.26:509][  0]LogInit: CPU Page size=4096, Cores=2
-[2018.06.17-18.58.26:509][  0]LogInit: High frequency timer resolution =2.143476 MHz
-[2018.06.17-18.58.26:509][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.06.17-18.58.26:509][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.17-18.58.26:509][  0]LogMemory: Process Physical Memory: 273.12 MB used, 273.12 MB peak
-[2018.06.17-18.58.26:509][  0]LogMemory: Process Virtual Memory: 263.78 MB used, 263.78 MB peak
-[2018.06.17-18.58.26:509][  0]LogMemory: Physical Memory: 4072.89 MB used,  4033.56 MB free, 8106.45 MB total
-[2018.06.17-18.58.26:509][  0]LogMemory: Virtual Memory: 4779.74 MB used,  4033.56 MB free, 134217728.00 MB total
-[2018.06.17-18.58.26:529][  0]LogInit: Using OS detected language (en-US).
-[2018.06.17-18.58.26:529][  0]LogInit: Using OS detected locale (en-IN).
-[2018.06.17-18.58.26:658][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.17-18.58.27:305][  0]LogStreaming: Display: Took  0.776s to EndInitTextLocalization.
-[2018.06.17-18.58.27:305][  0]LogInit: Setting process to per monitor DPI aware
-[2018.06.17-18.58.27:462][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.06.17-18.58.27:462][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.06.17-18.58.31:915][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.17-18.58.31:975][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
-[2018.06.17-18.58.31:975][  0]LogD3D11RHI:       2014/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.17-18.58.31:984][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
-[2018.06.17-18.58.31:984][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.06.17-18.58.31:988][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.06.17-18.58.31:988][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.06.17-18.58.31:988][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.17-18.58.32:010][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.17-18.58.32:010][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.17-18.58.32:010][  0]LogWindows: EnumDisplayDevices:
-[2018.06.17-18.58.32:010][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
-[2018.06.17-18.58.32:010][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.06.17-18.58.32:011][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
-[2018.06.17-18.58.32:011][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.06.17-18.58.32:011][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
-[2018.06.17-18.58.32:011][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.06.17-18.58.32:011][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.06.17-18.58.32:011][  0]LogRHI: Texture pool is 1410 MB (70% of 2014 MB)
-[2018.06.17-18.58.32:055][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.06.17-18.58.32:055][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.06.17-18.58.32:055][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.17-18.58.32:072][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.06.17-18.58.32:073][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Intermediate/Shaders/WorkingDirectory/6988/).
-[2018.06.17-18.58.32:073][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sumit/AppData/Local/Temp/UnrealShaderWorkingDir/84663B72453FE0DB8EB2848CEA0EB7A7/'.
-[2018.06.17-18.58.32:379][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.17-18.58.32:396][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.17-18.58.32:414][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.17-18.58.32:431][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.17-18.58.32:522][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.17-18.58.32:539][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.17-18.58.32:557][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.17-18.58.32:579][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.17-18.58.32:588][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.17-18.58.32:604][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.17-18.58.32:621][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.17-18.58.32:637][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.17-18.58.32:653][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.06.17-18.58.32:670][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.17-18.58.32:685][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.17-18.58.32:717][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.17-18.58.32:717][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.17-18.58.32:759][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.17-18.58.32:793][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.17-18.58.32:848][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.17-18.58.32:863][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.17-18.58.32:879][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.17-18.58.32:894][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.17-18.58.32:909][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.17-18.58.32:936][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.17-18.58.32:936][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.17-18.58.33:102][  0]LogXGEController: Cleaning working directory: C:/Users/Sumit/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.06.17-18.58.33:102][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.06.17-18.58.33:102][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.06.17-18.58.33:102][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.17-18.58.36:507][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.17-18.58.36:858][  0]LogDerivedDataCache: Loaded boot cache 0.35s 74MB C:/Users/Sumit/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.17-18.58.36:859][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sumit/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.06.17-18.58.36:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.17-18.58.36:859][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.17-18.58.36:859][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.17-18.58.36:859][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.17-18.58.36:880][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.17-18.58.36:892][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sumit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.17-18.58.36:892][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.06.17-18.58.36:892][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.06.17-18.58.36:906][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.17-18.58.36:907][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.17-18.58.36:937][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.17-18.58.36:937][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.17-18.58.38:540][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
-[2018.06.17-18.58.38:944][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.17-18.58.39:159][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.17-18.58.39:163][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.17-18.58.39:163][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.17-18.58.39:163][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.17-18.58.39:163][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.17-18.58.39:163][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.17-18.58.39:208][  0]LogNetVersion: BorRun , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1811221165)
-[2018.06.17-18.58.39:874][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.125539 seconds
-[2018.06.17-18.58.39:881][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.06.17-18.58.39:881][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.06.17-18.58.39:881][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.17-18.59.04:308][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.17-18.59.04:342][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.17-18.59.04:904][  0]SourceControl: Source control is disabled
-[2018.06.17-18.59.04:904][  0]SourceControl: Source control is disabled
-[2018.06.17-18.59.04:927][  0]SourceControl: Source control is disabled
-[2018.06.17-18.59.04:949][  0]SourceControl: Source control is disabled
-[2018.06.17-18.59.05:690][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.17-18.59.05:870][  0]LogOcInput: OculusInput pre-init called
-[2018.06.17-18.59.06:033][  0]LogEngine: Initializing Engine...
-[2018.06.17-18.59.06:034][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.17-18.59.06:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.17-18.59.06:036][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.17-18.59.06:335][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.17-18.59.06:362][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.17-18.59.06:557][  0]LogInit: FAudioDevice initialized.
-[2018.06.17-18.59.06:801][  0]LogDerivedDataCache: Saved boot cache 0.24s 74MB C:/Users/Sumit/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.06.17-18.59.06:813][  0]LogInit: Texture streaming: Enabled
-[2018.06.17-18.59.06:832][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.17-18.59.06:851][  0]LogInit: Transaction tracking system initialized
-[2018.06.17-18.59.06:883][  0]BlueprintLog: New page: Editor Load
-[2018.06.17-18.59.07:094][  0]LocalizationService: Localization service is disabled
-[2018.06.17-18.59.07:192][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2018.06.17-18.59.07:192][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
-[2018.06.17-18.59.07:192][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
-[2018.06.17-18.59.07:442][  0]LogConsoleResponse: Display: 
-[2018.06.17-18.59.07:647][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.17-18.59.07:647][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.17-18.59.07:647][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.17-18.59.07:647][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.17-18.59.07:647][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.17-18.59.08:133][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Content/' took 0.02s
-[2018.06.17-18.59.08:746][  0]SourceControl: Source control is disabled
-[2018.06.17-18.59.08:746][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.17-18.59.08:747][  0]LightingResults: New page: Lighting Build
-[2018.06.17-18.59.08:751][  0]MapCheck: New page: Map Check
-[2018.06.17-18.59.08:751][  0]LightingResults: New page: Lighting Build
-[2018.06.17-18.59.08:821][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fc09a4ea0, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.06.17-18.59.08:833][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021fc09a4ea0, Size=72
-[2018.06.17-18.59.08:833][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fc44158a0, Size=72, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.06.17-18.59.08:843][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fbf6d9a30, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
-[2018.06.17-18.59.08:890][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fc440c700, Size=248, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.17-18.59.08:895][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021fc440c700, Size=248
-[2018.06.17-18.59.08:895][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fc440c700, Size=248, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_4:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.17-18.59.08:900][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fbf7fd400, Size=248, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
-[2018.06.17-18.59.09:212][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [139.212189ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
-[2018.06.17-18.59.09:635][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.06.17-18.59.09:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.17-18.59.09:666][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021fc44158a0, Size=72
-[2018.06.17-18.59.09:666][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021fc440c700, Size=248
-[2018.06.17-18.59.09:667][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.17-18.59.09:743][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 74.877ms to complete.
-[2018.06.17-18.59.09:743][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.996
-[2018.06.17-18.59.09:991][  0]LogCollectionManager: Loaded 0 collections in 0.002536 seconds
-[2018.06.17-18.59.10:035][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Collections/' took 0.01s
-[2018.06.17-18.59.10:035][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Content/Developers/Sumit/Collections/' took 0.01s
-[2018.06.17-18.59.10:035][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Content/Collections/' took 0.01s
-[2018.06.17-18.59.10:035][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.06.17-18.59.10:046][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2452 classes and 558 folders.
-[2018.06.17-18.59.10:055][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.06.17-18.59.10:713][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.06.17-18.59.10:732][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.06.17-18.59.10:843][  0]LogSlate: Took 0.016961 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.17-18.59.10:868][  0]LogSlate: Took 0.019881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.17-18.59.10:892][  0]LogSlate: Took 0.020656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.17-18.59.10:997][  0]LogRenderer: Reallocating scene render targets to support 1220x372 Format 10 NumSamples 1 (Frame:1).
-[2018.06.17-18.59.11:203][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.06.17-18.59.11:203][  0]LogLoad: (Engine Initialization) Total time: 51.61 seconds
-[2018.06.17-18.59.11:203][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.17-18.59.11:562][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.06.17-18.59.11:888][  1]LogAssetRegistry: Asset discovery search completed in 33.3710 seconds
-[2018.06.17-18.59.11:891][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.17-18.59.11:891][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
-[2018.06.17-18.59.15:943][ 13]LogSlate: Took 0.058356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.17-19.01.00:733][503]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fc0be3f40, Size=16, Default__ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
-[2018.06.17-19.01.00:739][503]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021fc0be3f40, Size=16
-[2018.06.17-19.01.00:739][503]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fc0be3f40, Size=16, Default__ThirdPersonGameMode_C Function /Engine/Transient.REINST_ThirdPersonGameMode_C_10:ExecuteUbergraph_ThirdPersonGameMode
-[2018.06.17-19.01.00:748][503]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fc1084600, Size=16, Default__ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
-[2018.06.17-19.01.00:793][503]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.17-19.01.17:827][648]LogSourceControl: Warning: '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/' is not part of a Git repository
-[2018.06.17-19.01.59:932][806]SourceControl: Source control is disabled
-[2018.06.17-19.01.59:932][806]LogSlate: Window 'Source Control Login' being destroyed
-[2018.06.17-19.15.13:975][624]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.17-19.15.15:307][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.17-19.15.16:842][767]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021fc0be3f40, Size=16
-[2018.06.17-19.15.16:844][767]Cmd: MAP LOAD FILE="../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.17-19.15.16:855][767]LogSlate: Took 0.000656 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.06.17-19.15.16:887][767]LightingResults: New page: Lighting Build
-[2018.06.17-19.15.16:890][767]LoadErrors: New page: Loading map: BotRunLVL1.umap
-[2018.06.17-19.15.16:895][767]MapCheck: New page: Map Check
-[2018.06.17-19.15.16:895][767]LightingResults: New page: Lighting Build
-[2018.06.17-19.15.16:938][767]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
-[2018.06.17-19.15.16:939][767]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap.
-[2018.06.17-19.15.16:939][767]LoadErrors: Error: /Game/BotRunLVL1 : Can't find file for asset. /Game/BotRunLVL1_BuiltData
-[2018.06.17-19.15.16:941][767]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
-[2018.06.17-19.15.16:942][767]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap.
-[2018.06.17-19.15.16:952][767]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
-[2018.06.17-19.15.16:953][767]LoadErrors: Failed to load /Game/BotRunLVL1_BuiltData.BotRunLVL1_BuiltData Referenced by PersistentLevel
-[2018.06.17-19.15.16:953][767]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading NULL.
-[2018.06.17-19.15.16:961][767]LogAIModule: Creating AISystem for world BotRunLVL1
-[2018.06.17-19.15.17:086][767]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.17-19.15.17:229][767]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.17-19.15.17:381][767]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 151.279ms to complete.
-[2018.06.17-19.15.17:381][767]LogFileHelpers: Loading map 'BotRunLVL1' took 0.537
-[2018.06.17-19.15.17:384][767]LogSlate: Window 'Open Level' being destroyed
-[2018.06.17-19.15.31:749][216]LogSlate: Window 'Message Log' being destroyed
-[2018.06.17-19.15.31:761][216]LogSlate: Window 'Message Log' being destroyed
-[2018.06.17-19.15.34:886][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.17-19.15.35:941][351]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.17-19.15.35:983][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.17-19.15.35:984][351]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:15:35 am)
-[2018.06.17-19.15.35:984][351]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
-[2018.06.17-19.15.35:988][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004473s)
-[2018.06.17-19.15.35:989][351]LogAIModule: Creating AISystem for world BotRunLVL1
-[2018.06.17-19.15.35:990][351]LogPlayLevel: PIE: World Init took: (0.001355s)
-[2018.06.17-19.15.35:990][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.006061s)
-[2018.06.17-19.15.36:006][351]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.17-19.15.36:024][351]LogInit: FAudioDevice initialized.
-[2018.06.17-19.15.36:073][351]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.06.17-19.15.36:075][351]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-00.45.36
-[2018.06.17-19.15.36:075][351]LogWorld: Bringing up level for play took: 0.000693
-[2018.06.17-19.15.36:085][351]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.06.17-19.15.36:090][351]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.242
-[2018.06.17-19.15.42:937][571]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.16.09:121][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.16.17:539][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.16.22:766][502]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2018.06.17-19.16.23:150][502]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fff2bc428, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.17-19.16.23:151][502]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021fff2bc420, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.06.17-19.16.23:749][502]LogSlate: Took 0.060119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.06.17-19.16.29:565][647]LogRenderer: Reallocating scene render targets to support 1220x540 Format 10 NumSamples 1 (Frame:1).
-[2018.06.17-19.16.38:734][789]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.06.17-19.16.44:679][953]LogSlate: Took 0.060737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.06.17-19.18.15:341][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.18.29:196][696]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.19.03:220][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.19.45:017][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.19.49:133][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.19.56:256][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.20.41:131][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.20.48:383][951]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ffb2e4110, Size=4, Default__SKEL_Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.SKEL_Master_Tile_C:ExecuteUbergraph_Master_Tile
-[2018.06.17-19.21.52:208][676]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.06.17-19.22.08:117][247]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2018.06.17-19.24.21:417][ 21]BlueprintLog: New page: Compile Master_Tile
-[2018.06.17-19.24.21:429][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000021ffb2e4110, Size=4
-[2018.06.17-19.24.21:430][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x000002201917ba08, Size=4, Default__SKEL_Master_Tile_C Function /Engine/Transient.REINST_SKEL_Master_Tile_C_34:ExecuteUbergraph_Master_Tile
-[2018.06.17-19.24.21:468][ 21]LogUObjectGlobals: Created PersistentFrame Addr=0x000002201a791ec0, Size=224, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
-[2018.06.17-19.24.22:178][ 21]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002201917ba08, Size=4
-[2018.06.17-19.24.24:164][ 67]LogSlate: Window 'Master_Tile*' being destroyed
-[2018.06.17-19.24.24:177][ 67]LogSlate: Window 'Master_Tile*' being destroyed
-[2018.06.17-19.24.26:392][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.24.26:481][124]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.17-19.24.26:538][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.17-19.24.26:538][124]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:24:26 am)
-[2018.06.17-19.24.26:539][124]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
-[2018.06.17-19.24.26:543][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004564s)
-[2018.06.17-19.24.26:545][124]LogAIModule: Creating AISystem for world BotRunLVL1
-[2018.06.17-19.24.26:546][124]LogPlayLevel: PIE: World Init took: (0.002709s)
-[2018.06.17-19.24.26:546][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.007711s)
-[2018.06.17-19.24.26:594][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.17-19.24.26:623][124]LogInit: FAudioDevice initialized.
-[2018.06.17-19.24.26:668][124]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.06.17-19.24.26:671][124]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-00.54.26
-[2018.06.17-19.24.26:671][124]LogWorld: Bringing up level for play took: 0.001443
-[2018.06.17-19.24.26:752][124]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.904
-[2018.06.17-19.24.44:001][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.25.13:682][439]BlueprintLog: New page: Compile Master_Tile
-[2018.06.17-19.25.13:707][439]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002201a791ec0, Size=224
-[2018.06.17-19.25.13:707][439]LogUObjectGlobals: Created PersistentFrame Addr=0x000002200db80800, Size=224, Default__Master_Tile_C Function /Engine/Transient.REINST_Master_Tile_C_44:ExecuteUbergraph_Master_Tile
-[2018.06.17-19.25.13:712][439]LogUObjectGlobals: Created PersistentFrame Addr=0x0000021ffde31440, Size=224, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
-[2018.06.17-19.25.15:098][457]LogSlate: Window 'Master_Tile*' being destroyed
-[2018.06.17-19.25.15:117][457]LogSlate: Window 'Master_Tile*' being destroyed
-[2018.06.17-19.25.16:635][494]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.25.16:741][498]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.17-19.25.16:784][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.17-19.25.16:784][498]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:25:16 am)
-[2018.06.17-19.25.16:785][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
-[2018.06.17-19.25.16:790][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005583s)
-[2018.06.17-19.25.16:792][498]LogAIModule: Creating AISystem for world BotRunLVL1
-[2018.06.17-19.25.16:793][498]LogPlayLevel: PIE: World Init took: (0.002196s)
-[2018.06.17-19.25.16:793][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.008174s)
-[2018.06.17-19.25.16:844][498]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.17-19.25.16:875][498]LogInit: FAudioDevice initialized.
-[2018.06.17-19.25.16:916][498]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.06.17-19.25.16:918][498]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-00.55.16
-[2018.06.17-19.25.16:918][498]LogWorld: Bringing up level for play took: 0.001168
-[2018.06.17-19.25.16:932][498]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 1.083
-[2018.06.17-19.25.17:179][499]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.072623 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
-[2018.06.17-19.25.29:718][868]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.25.47:428][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.06.17-19.26.41:364][566]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.233
-[2018.06.17-19.26.41:376][566]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Ruuner/Blueprints/Master_Tile] ([1] browsable assets)...
-[2018.06.17-19.26.41:518][566]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Ruuner/Blueprints/Master_Tile.Master_Tile]
-[2018.06.17-19.26.41:519][566]OBJ SavePackage: Finished generating thumbnails for package [/Game/Ruuner/Blueprints/Master_Tile]
-[2018.06.17-19.26.41:594][566]LogSavePackage: Save=59.32ms
-[2018.06.17-19.26.41:594][566]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Master_Tile_Auto12B33CAB643DA11CE205B8BA4A8E7440E.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto1.uasset'
-[2018.06.17-19.26.41:597][566]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/Ruuner/Blueprints/Master_Tile_Auto1.uasset
-[2018.06.17-19.26.41:597][566]LogFileHelpers: Auto-saving content packages took 0.229
+[2018.06.18-07.14.26:248][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.18-07.14.26:249][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.18-07.14.26:293][  0]LogInit: Computer: LAPTOP-EQTDUEGN
+[2018.06.18-07.14.26:293][  0]LogInit: User: Sumit
+[2018.06.18-07.14.26:293][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.06.18-07.14.26:293][  0]LogInit: High frequency timer resolution =2.143476 MHz
+[2018.06.18-07.14.26:293][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.06.18-07.14.26:293][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.18-07.14.26:293][  0]LogMemory: Process Physical Memory: 273.29 MB used, 273.29 MB peak
+[2018.06.18-07.14.26:293][  0]LogMemory: Process Virtual Memory: 264.04 MB used, 264.04 MB peak
+[2018.06.18-07.14.26:293][  0]LogMemory: Physical Memory: 4607.94 MB used,  3498.51 MB free, 8106.45 MB total
+[2018.06.18-07.14.26:293][  0]LogMemory: Virtual Memory: 4779.74 MB used,  3498.51 MB free, 134217728.00 MB total
+[2018.06.18-07.14.26:316][  0]LogInit: Using OS detected language (en-US).
+[2018.06.18-07.14.26:316][  0]LogInit: Using OS detected locale (en-IN).
+[2018.06.18-07.14.26:320][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.18-07.14.26:925][  0]LogStreaming: Display: Took  0.609s to EndInitTextLocalization.
+[2018.06.18-07.14.26:926][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.18-07.14.26:968][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.18-07.14.26:968][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.18-07.14.27:272][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.18-07.14.27:343][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2018.06.18-07.14.27:343][  0]LogD3D11RHI:       2014/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.18-07.14.27:352][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 5500' (Feature Level 11_0)
+[2018.06.18-07.14.27:352][  0]LogD3D11RHI:       128/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.06.18-07.14.27:354][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.18-07.14.27:354][  0]LogD3D11RHI:       0/0/4053 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.18-07.14.27:354][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.18-07.14.27:374][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.18-07.14.27:374][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.18-07.14.27:374][  0]LogWindows: EnumDisplayDevices:
+[2018.06.18-07.14.27:374][  0]LogWindows:    0. 'Intel(R) HD Graphics 5500' (P:1 D:1)
+[2018.06.18-07.14.27:374][  0]LogWindows:    1. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.06.18-07.14.27:375][  0]LogWindows:    2. 'Intel(R) HD Graphics 5500' (P:0 D:0)
+[2018.06.18-07.14.27:375][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.18-07.14.27:375][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2018.06.18-07.14.27:375][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.18-07.14.27:375][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.18-07.14.27:375][  0]LogRHI: Texture pool is 1410 MB (70% of 2014 MB)
+[2018.06.18-07.14.27:420][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.06.18-07.14.27:420][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.06.18-07.14.27:420][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.18-07.14.27:441][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.18-07.14.27:442][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Intermediate/Shaders/WorkingDirectory/7148/).
+[2018.06.18-07.14.27:442][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sumit/AppData/Local/Temp/UnrealShaderWorkingDir/1BC469724C5F6808D20A769843E14C5E/'.
+[2018.06.18-07.14.27:759][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.18-07.14.27:778][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.18-07.14.27:798][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.18-07.14.27:819][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.18-07.14.27:845][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.18-07.14.27:865][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.18-07.14.27:888][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.18-07.14.27:911][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.18-07.14.27:921][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.18-07.14.27:941][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.18-07.14.27:957][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.18-07.14.27:976][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.18-07.14.27:993][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.18-07.14.28:011][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.18-07.14.28:031][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.18-07.14.28:069][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.18-07.14.28:069][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.18-07.14.28:091][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.18-07.14.28:093][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.18-07.14.28:141][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.18-07.14.28:157][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.18-07.14.28:176][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.18-07.14.28:192][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.18-07.14.28:210][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.18-07.14.28:227][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.18-07.14.28:227][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.18-07.14.28:388][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.18-07.14.28:388][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.18-07.14.28:388][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.18-07.14.29:436][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.18-07.14.29:551][  0]LogDerivedDataCache: Loaded boot cache 0.12s 74MB C:/Users/Sumit/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.18-07.14.29:552][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Sumit/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.18-07.14.29:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.18-07.14.29:552][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.18-07.14.29:552][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.18-07.14.29:552][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.18-07.14.29:577][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.18-07.14.29:590][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sumit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.18-07.14.29:590][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.06.18-07.14.29:590][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.06.18-07.14.29:607][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.18-07.14.29:608][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.18-07.14.29:609][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.18-07.14.29:609][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.18-07.14.29:769][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2018.06.18-07.14.30:225][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.18-07.14.30:443][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.18-07.14.30:448][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.18-07.14.30:448][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.18-07.14.30:448][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.18-07.14.30:448][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.18-07.14.30:448][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.18-07.14.30:490][  0]LogNetVersion: BorRun , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1811221165)
+[2018.06.18-07.14.31:208][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.142150 seconds
+[2018.06.18-07.14.31:217][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.06.18-07.14.31:217][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.06.18-07.14.31:217][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.18-07.15.00:311][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.18-07.15.00:355][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.18-07.15.01:296][  0]SourceControl: Source control is disabled
+[2018.06.18-07.15.01:296][  0]SourceControl: Source control is disabled
+[2018.06.18-07.15.01:380][  0]SourceControl: Source control is disabled
+[2018.06.18-07.15.01:449][  0]SourceControl: Source control is disabled
+[2018.06.18-07.15.02:999][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.18-07.15.03:549][  0]LogOcInput: OculusInput pre-init called
+[2018.06.18-07.15.03:759][  0]LogEngine: Initializing Engine...
+[2018.06.18-07.15.03:761][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.18-07.15.03:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.18-07.15.03:763][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.18-07.15.05:321][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.18-07.15.05:331][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-07.15.05:714][  0]LogInit: FAudioDevice initialized.
+[2018.06.18-07.15.06:015][  0]LogDerivedDataCache: Saved boot cache 0.30s 74MB C:/Users/Sumit/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.18-07.15.06:079][  0]LogInit: Texture streaming: Enabled
+[2018.06.18-07.15.06:129][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.18-07.15.06:152][  0]LogInit: Transaction tracking system initialized
+[2018.06.18-07.15.06:200][  0]BlueprintLog: New page: Editor Load
+[2018.06.18-07.15.06:335][  0]LocalizationService: Localization service is disabled
+[2018.06.18-07.15.06:973][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.06.18-07.15.06:973][  0]LogLinker: Warning: Can't find file '/Game/2DSideScrollerBP/2DSideScrollerOverview'
+[2018.06.18-07.15.06:973][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/2DSideScrollerBP/2DSideScrollerOverview.2DSideScrollerOverview_C'
+[2018.06.18-07.15.07:316][  0]LogConsoleResponse: Display: 
+[2018.06.18-07.15.08:138][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.18-07.15.08:139][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.18-07.15.08:139][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.18-07.15.08:139][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.18-07.15.08:139][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.18-07.15.08:380][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Content/' took 0.03s
+[2018.06.18-07.15.10:044][  0]SourceControl: Source control is disabled
+[2018.06.18-07.15.10:045][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.18-07.15.10:064][  0]LightingResults: New page: Lighting Build
+[2018.06.18-07.15.10:078][  0]MapCheck: New page: Map Check
+[2018.06.18-07.15.10:079][  0]LightingResults: New page: Lighting Build
+[2018.06.18-07.15.10:357][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f118bf1e90, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.18-07.15.10:382][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f118bf1e90, Size=72
+[2018.06.18-07.15.10:382][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f118b63790, Size=72, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.18-07.15.10:402][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f11984a430, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2018.06.18-07.15.10:879][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1197d8900, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.15.10:896][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1197d8900, Size=520
+[2018.06.18-07.15.10:896][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f119457d80, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_4:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.15.10:919][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f119454e00, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.15.11:902][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [36.074116ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2018.06.18-07.15.12:148][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.06.18-07.15.12:178][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.18-07.15.12:208][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f118b63790, Size=72
+[2018.06.18-07.15.12:209][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f119457d80, Size=520
+[2018.06.18-07.15.12:211][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.18-07.15.12:314][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.813ms to complete.
+[2018.06.18-07.15.12:314][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 2.270
+[2018.06.18-07.15.12:705][  0]LogCollectionManager: Loaded 0 collections in 0.003015 seconds
+[2018.06.18-07.15.12:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Collections/' took 0.01s
+[2018.06.18-07.15.12:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Content/Developers/Sumit/Collections/' took 0.01s
+[2018.06.18-07.15.12:750][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Sumit/Documents/Unreal Projects/BorRun/Content/Collections/' took 0.01s
+[2018.06.18-07.15.12:750][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.18-07.15.12:781][  0]LogContentBrowser: Native class hierarchy populated in 0.0313 seconds. Added 2452 classes and 558 folders.
+[2018.06.18-07.15.12:813][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.06.18-07.15.14:677][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.06.18-07.15.14:715][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.06.18-07.15.14:891][  0]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.18-07.15.14:902][  0]LogSlate: Took 0.000474 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.18-07.15.14:929][  0]LogSlate: Took 0.020166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.18-07.15.15:432][  0]LogRenderer: Reallocating scene render targets to support 1220x372 Format 10 NumSamples 1 (Frame:1).
+[2018.06.18-07.15.15:861][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.06.18-07.15.15:861][  0]LogLoad: (Engine Initialization) Total time: 54.20 seconds
+[2018.06.18-07.15.15:861][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.18-07.15.16:228][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.06.18-07.15.16:687][  1]LogSlate: Took 0.006392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.18-07.15.18:233][  6]LogAssetRegistry: Asset discovery search completed in 48.4874 seconds
+[2018.06.18-07.15.18:243][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.06.18-07.15.18:243][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000196 seconds (updated 0 objects)
+[2018.06.18-07.15.21:590][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-07.15.23:548][131]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-07.15.25:075][195]Cmd: MAP LOAD FILE="../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.18-07.15.25:104][195]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.18-07.15.25:137][195]LightingResults: New page: Lighting Build
+[2018.06.18-07.15.25:141][195]LoadErrors: New page: Loading map: BotRunLVL1.umap
+[2018.06.18-07.15.25:149][195]MapCheck: New page: Map Check
+[2018.06.18-07.15.25:149][195]LightingResults: New page: Lighting Build
+[2018.06.18-07.15.25:171][195]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
+[2018.06.18-07.15.25:171][195]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap.
+[2018.06.18-07.15.25:171][195]LoadErrors: Error: /Game/BotRunLVL1 : Can't find file for asset. /Game/BotRunLVL1_BuiltData
+[2018.06.18-07.15.25:172][195]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
+[2018.06.18-07.15.25:172][195]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Content/BotRunLVL1.umap.
+[2018.06.18-07.15.25:180][195]LogLinker: Warning: Can't find file '/Game/BotRunLVL1_BuiltData'
+[2018.06.18-07.15.25:180][195]LoadErrors: Failed to load /Game/BotRunLVL1_BuiltData.BotRunLVL1_BuiltData Referenced by PersistentLevel
+[2018.06.18-07.15.25:180][195]LogLinker: Warning: Can't find file for asset '/Game/BotRunLVL1_BuiltData' while loading NULL.
+[2018.06.18-07.15.25:188][195]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-07.15.25:321][195]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.18-07.15.25:443][195]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.18-07.15.25:523][195]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.387ms to complete.
+[2018.06.18-07.15.25:523][195]LogFileHelpers: Loading map 'BotRunLVL1' took 0.448
+[2018.06.18-07.15.25:525][195]LogSlate: Window 'Open Level' being destroyed
+[2018.06.18-07.15.28:265][274]LogSlate: Window 'Message Log' being destroyed
+[2018.06.18-07.15.28:272][274]LogSlate: Window 'Message Log' being destroyed
+[2018.06.18-07.15.29:641][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.15.29:800][360]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-07.15.29:834][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-07.15.29:835][360]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:15:29 pm)
+[2018.06.18-07.15.29:836][360]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-07.15.29:841][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005421s)
+[2018.06.18-07.15.29:842][360]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-07.15.29:843][360]LogPlayLevel: PIE: World Init took: (0.001530s)
+[2018.06.18-07.15.29:843][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.007312s)
+[2018.06.18-07.15.29:869][360]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-07.15.29:893][360]LogInit: FAudioDevice initialized.
+[2018.06.18-07.15.29:965][360]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f163324100, Size=16, Default__ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-07.15.29:973][360]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f144c67120, Size=224, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.18-07.15.30:083][360]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f144c67120, Size=224
+[2018.06.18-07.15.30:083][360]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18d81b740, Size=224, Default__Master_Tile_C Function /Engine/Transient.REINST_Master_Tile_C_8:ExecuteUbergraph_Master_Tile
+[2018.06.18-07.15.30:084][360]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f163324100, Size=16
+[2018.06.18-07.15.30:084][360]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f163324100, Size=16, Default__ThirdPersonGameMode_C Function /Engine/Transient.REINST_ThirdPersonGameMode_C_9:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-07.15.30:098][360]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18d819360, Size=224, Default__Master_Tile_C Function /Game/Ruuner/Blueprints/Master_Tile.Master_Tile_C:ExecuteUbergraph_Master_Tile
+[2018.06.18-07.15.30:100][360]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f145bec4f0, Size=16, Default__ThirdPersonGameMode_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C:ExecuteUbergraph_ThirdPersonGameMode
+[2018.06.18-07.15.30:351][360]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-07.15.30:357][360]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-12.45.30
+[2018.06.18-07.15.30:357][360]LogWorld: Bringing up level for play took: 0.001766
+[2018.06.18-07.15.30:556][360]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.06.18-07.15.30:585][360]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 1.166
+[2018.06.18-07.15.30:687][361]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073853 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-07.15.56:684][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.15.56:926][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18d81b740, Size=224
+[2018.06.18-07.15.56:926][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f163324100, Size=16
+[2018.06.18-07.16.00:854][188]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0022 seconds. Added 116 classes and 0 folders.
+[2018.06.18-07.16.01:390][188]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12c2aca30, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.18-07.16.01:391][188]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12c2aca28, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.06.18-07.16.01:992][188]LogSlate: Took 0.005895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.18-07.16.02:522][189]LogSlate: Took 0.006650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.18-07.22.10:710][942]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1848ce3e8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.23.26:419][ 11]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-07.25.52:476][374]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.079
+[2018.06.18-07.25.52:482][374]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.18-07.25.52:565][374]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.18-07.25.52:565][374]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.06.18-07.25.52:873][374]LogSavePackage: Save=214.29ms
+[2018.06.18-07.25.52:873][374]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonCharacter_Auto13C83BF9D4AF8A0DA64CA82B13C2110AF.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.06.18-07.25.52:878][374]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2018.06.18-07.25.52:878][374]LogFileHelpers: Auto-saving content packages took 0.400
+[2018.06.18-07.26.37:066][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.29.29:060][794]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1848ce3e8, Size=4
+[2018.06.18-07.29.29:060][794]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18cd4b208, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_26:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.29.29:077][794]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18cd4aaa0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.33.04:173][375]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-07.33.50:498][389]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-07.33.50:551][389]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18cd4aaa0, Size=4
+[2018.06.18-07.33.50:552][389]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f185399958, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_29:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.33.50:622][389]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f119454e00, Size=520
+[2018.06.18-07.33.50:622][389]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f145a5a700, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_32:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.33.50:655][389]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1868af380, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.33.51:469][389]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f185399958, Size=4
+[2018.06.18-07.34.48:594][632]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-07.34.48:719][632]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1868af380, Size=520
+[2018.06.18-07.34.48:719][632]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1868af380, Size=520, ThirdPersonCharacter_C_63 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_38:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.34.48:745][632]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f193bc8900, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.35.11:060][261]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18cd48188, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.35.21:652][478]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-07.35.21:713][478]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18cd48188, Size=4
+[2018.06.18-07.35.21:713][478]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f18cd48188, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_43:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.35.21:770][478]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f193bc8900, Size=520
+[2018.06.18-07.35.21:770][478]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f180bd5a80, Size=520, ThirdPersonCharacter_C_95 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_46:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.35.21:795][478]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f180b37600, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.35.22:518][478]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18cd48188, Size=4
+[2018.06.18-07.36.07:992][511]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-07.36.08:100][511]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f180b37600, Size=520
+[2018.06.18-07.36.08:100][511]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f185b8b880, Size=520, ThirdPersonCharacter_C_117 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_52:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.36.08:125][511]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f180b52480, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-07.36.12:267][589]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.36.12:355][591]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-07.36.12:411][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-07.36.12:412][591]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:36:12 pm)
+[2018.06.18-07.36.12:412][591]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-07.36.12:419][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006885s)
+[2018.06.18-07.36.12:423][591]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-07.36.12:423][591]LogPlayLevel: PIE: World Init took: (0.004334s)
+[2018.06.18-07.36.12:423][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.011640s)
+[2018.06.18-07.36.12:473][591]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f185b8b880, Size=520
+[2018.06.18-07.36.12:480][591]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-07.36.12:511][591]LogInit: FAudioDevice initialized.
+[2018.06.18-07.36.12:556][591]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-07.36.12:559][591]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-13.06.12
+[2018.06.18-07.36.12:559][591]LogWorld: Bringing up level for play took: 0.001614
+[2018.06.18-07.36.12:588][591]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 1.17
+[2018.06.18-07.36.44:223][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.37.21:198][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.070
+[2018.06.18-07.37.21:204][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.18-07.37.21:297][189]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.18-07.37.21:297][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.06.18-07.37.21:625][189]LogSavePackage: Save=285.16ms
+[2018.06.18-07.37.21:627][189]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonCharacter_Auto2510A982C4A46D22E1F55B9B4225D9CEF.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2018.06.18-07.37.21:634][189]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset
+[2018.06.18-07.37.21:634][189]LogFileHelpers: Auto-saving content packages took 0.434
+[2018.06.18-07.38.10:011][218]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.39.54:084][428]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-07.39.54:097][428]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-07.39.56:362][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.40.04:061][614]LogRenderer: Reallocating scene render targets to support 1220x540 Format 10 NumSamples 1 (Frame:1).
+[2018.06.18-07.40.20:059][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.40.36:525][ 56]LogSlate: Window 'Master_Tile' being destroyed
+[2018.06.18-07.40.36:548][ 56]LogSlate: Window 'Master_Tile' being destroyed
+[2018.06.18-07.40.41:490][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.40.41:613][177]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-07.40.41:701][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-07.40.41:702][177]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 6:40:41 pm)
+[2018.06.18-07.40.41:702][177]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-07.40.41:710][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008376s)
+[2018.06.18-07.40.41:714][177]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-07.40.41:715][177]LogPlayLevel: PIE: World Init took: (0.004035s)
+[2018.06.18-07.40.41:715][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.013322s)
+[2018.06.18-07.40.41:800][177]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-07.40.41:840][177]LogInit: FAudioDevice initialized.
+[2018.06.18-07.40.41:887][177]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-07.40.41:889][177]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-13.10.41
+[2018.06.18-07.40.41:890][177]LogWorld: Bringing up level for play took: 0.001913
+[2018.06.18-07.40.41:915][177]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.496
+[2018.06.18-07.41.05:308][776]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-07.48.17:986][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.060
+[2018.06.18-07.48.17:988][226]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.18-07.48.18:143][226]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.18-07.48.18:143][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.06.18-07.48.18:409][226]LogSavePackage: Save=226.22ms
+[2018.06.18-07.48.18:409][226]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonCharacter_Auto32EFF109D46EDA5D082187991648A4CAE.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2018.06.18-07.48.18:415][226]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset
+[2018.06.18-07.48.18:415][226]LogFileHelpers: Auto-saving content packages took 0.428
+[2018.06.18-07.51.20:649][  9]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-07.53.02:974][374]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-07.59.21:746][ 68]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.00.08:966][915]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.00.09:098][915]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f180b52480, Size=520
+[2018.06.18-08.00.09:098][915]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f14fd28e00, Size=520, ThirdPersonCharacter_C_160 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_58:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.00.09:134][915]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f19462d080, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.00.14:733][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.00.14:836][999]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.00.14:909][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.00.14:909][999]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:00:14 pm)
+[2018.06.18-08.00.14:909][999]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.00.14:917][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007502s)
+[2018.06.18-08.00.14:921][999]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.00.14:922][999]LogPlayLevel: PIE: World Init took: (0.004713s)
+[2018.06.18-08.00.14:922][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.012842s)
+[2018.06.18-08.00.15:007][999]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.00.15:049][999]LogInit: FAudioDevice initialized.
+[2018.06.18-08.00.15:100][999]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.00.15:103][999]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.30.15
+[2018.06.18-08.00.15:104][999]LogWorld: Bringing up level for play took: 0.001660
+[2018.06.18-08.00.15:127][999]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 -0.292
+[2018.06.18-08.00.37:625][479]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.00.44:025][566]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.01.11:841][998]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-08.01.15:925][ 48]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-08.01.18:295][ 70]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-08.01.19:060][ 77]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-08.01.21:052][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.01.59:621][706]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f145a5a700, Size=520
+[2018.06.18-08.01.59:627][706]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f180bd5a80, Size=520
+[2018.06.18-08.01.59:627][706]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1868af380, Size=520
+[2018.06.18-08.01.59:627][706]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f18cd4b208, Size=4
+[2018.06.18-08.02.00:433][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.02.40:552][319]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.02.40:648][319]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.06.18-08.02.40:704][319]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.06.18-08.02.40:752][319]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f19462d080, Size=520
+[2018.06.18-08.02.40:752][319]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1868ad300, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_64:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.02.40:777][319]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f150171a80, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.02.41:725][319]LogPlayLevel: PlayLevel: Blueprint regeneration took 1076 ms (1 blueprints)
+[2018.06.18-08.02.41:726][319]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:02:41 pm)
+[2018.06.18-08.02.41:726][319]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.02.41:737][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010709s)
+[2018.06.18-08.02.41:741][319]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.02.41:742][319]LogPlayLevel: PIE: World Init took: (0.004274s)
+[2018.06.18-08.02.41:742][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.015841s)
+[2018.06.18-08.02.41:825][319]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.02.41:872][319]LogInit: FAudioDevice initialized.
+[2018.06.18-08.02.41:933][319]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.02.41:937][319]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.32.41
+[2018.06.18-08.02.41:938][319]LogWorld: Bringing up level for play took: 0.002259
+[2018.06.18-08.02.41:975][319]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.555
+[2018.06.18-08.02.42:452][320]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.080213 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.03.13:986][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.03.18:943][999]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f14fd28e00, Size=520
+[2018.06.18-08.03.45:970][316]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.081
+[2018.06.18-08.03.45:977][316]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.18-08.03.46:119][316]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.18-08.03.46:120][316]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.06.18-08.03.46:388][316]LogSavePackage: Save=226.14ms
+[2018.06.18-08.03.46:388][316]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonCharacter_Auto453BFB06A4A55AFD383D24784F5CAEB7C.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2018.06.18-08.03.46:394][316]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset
+[2018.06.18-08.03.46:394][316]LogFileHelpers: Auto-saving content packages took 0.422
+[2018.06.18-08.03.47:032][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.05.58:639][804]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.05.58:784][804]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f150171a80, Size=520
+[2018.06.18-08.05.58:785][804]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1b509ce00, Size=520, ThirdPersonCharacter_C_210 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_70:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.05.58:819][804]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1b4c2f600, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.06.01:554][828]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.06.01:628][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.06.01:629][828]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:06:01 pm)
+[2018.06.18-08.06.01:629][828]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.06.01:638][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008833s)
+[2018.06.18-08.06.01:642][828]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.06.01:643][828]LogPlayLevel: PIE: World Init took: (0.004266s)
+[2018.06.18-08.06.01:643][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.013748s)
+[2018.06.18-08.06.01:706][828]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1868ad300, Size=520
+[2018.06.18-08.06.01:714][828]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.06.01:760][828]LogInit: FAudioDevice initialized.
+[2018.06.18-08.06.01:816][828]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.06.01:820][828]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.36.01
+[2018.06.18-08.06.01:821][828]LogWorld: Bringing up level for play took: 0.002594
+[2018.06.18-08.06.01:857][828]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.438
+[2018.06.18-08.06.02:003][829]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.060984 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.06.03:808][863]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.06.22:036][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.06.53:424][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.06.59:482][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.07.04:845][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.08.11:331][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.08.18:708][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.10.15:523][949]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12cef0a78, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.10.20:507][ 27]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.10.20:582][ 27]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.06.18-08.10.20:639][ 27]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f12cef0a78, Size=4
+[2018.06.18-08.10.20:639][ 27]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f185398da0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_75:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.10.20:649][ 27]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2018.06.18-08.10.20:701][ 27]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1b4c2f600, Size=520
+[2018.06.18-08.10.20:701][ 27]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16491c680, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_78:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.10.20:726][ 27]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1b7718e00, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.10.21:677][ 27]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f185398da0, Size=4
+[2018.06.18-08.10.21:682][ 27]LogPlayLevel: PlayLevel: Blueprint regeneration took 1099 ms (1 blueprints)
+[2018.06.18-08.10.21:682][ 27]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:10:21 pm)
+[2018.06.18-08.10.21:683][ 27]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.10.21:694][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010820s)
+[2018.06.18-08.10.21:699][ 27]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.10.21:701][ 27]LogPlayLevel: PIE: World Init took: (0.007179s)
+[2018.06.18-08.10.21:701][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.018800s)
+[2018.06.18-08.10.21:783][ 27]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.10.21:831][ 27]LogInit: FAudioDevice initialized.
+[2018.06.18-08.10.21:894][ 27]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.10.21:898][ 27]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.40.21
+[2018.06.18-08.10.21:899][ 27]LogWorld: Bringing up level for play took: 0.002330
+[2018.06.18-08.10.21:937][ 27]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.518
+[2018.06.18-08.10.22:318][ 28]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068787 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.10.33:600][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.10.37:306][276]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.10.53:945][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.11.01:230][648]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f14fdb3628, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.01:298][648]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f14fdb3628, Size=4
+[2018.06.18-08.11.01:298][648]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f14fdb3628, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_82:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.01:310][648]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f184ee68f8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.03:437][677]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.11.03:494][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f184ee68f8, Size=4
+[2018.06.18-08.11.03:494][677]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1455af430, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_85:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.03:563][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1b7718e00, Size=520
+[2018.06.18-08.11.03:563][677]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f164560e00, Size=520, ThirdPersonCharacter_C_285 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_88:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.03:589][677]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f180bd7d80, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.04:674][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1455af430, Size=4
+[2018.06.18-08.11.04:675][677]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f14fdb3628, Size=4
+[2018.06.18-08.11.10:843][768]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f19bad5ee8, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.12:747][792]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.11.12:803][792]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f19bad5ee8, Size=4
+[2018.06.18-08.11.12:804][792]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12cef2d48, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_93:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.12:866][792]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f180bd7d80, Size=520
+[2018.06.18-08.11.12:866][792]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1b5688680, Size=520, ThirdPersonCharacter_C_315 Function /Engine/Transient.REINST_ThirdPersonCharacter_C_96:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.12:893][792]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f19462ec00, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.13:731][792]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f164560e00, Size=520
+[2018.06.18-08.11.13:731][792]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16491c680, Size=520
+[2018.06.18-08.11.13:731][792]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f12cef2d48, Size=4
+[2018.06.18-08.11.15:687][818]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.11.15:759][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.11.15:760][818]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:11:15 pm)
+[2018.06.18-08.11.15:760][818]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.11.15:767][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007014s)
+[2018.06.18-08.11.15:771][818]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.11.15:772][818]LogPlayLevel: PIE: World Init took: (0.003202s)
+[2018.06.18-08.11.15:772][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.011514s)
+[2018.06.18-08.11.15:839][818]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1b5688680, Size=520
+[2018.06.18-08.11.15:846][818]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.11.15:887][818]LogInit: FAudioDevice initialized.
+[2018.06.18-08.11.15:946][818]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.11.15:951][818]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.41.15
+[2018.06.18-08.11.15:952][818]LogWorld: Bringing up level for play took: 0.002514
+[2018.06.18-08.11.15:989][818]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.57
+[2018.06.18-08.11.16:068][819]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054030 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.11.37:824][172]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f185399758, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.37:893][172]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f185399758, Size=4
+[2018.06.18-08.11.37:893][172]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f185399758, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_100:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.37:904][172]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1455acb38, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.39:086][187]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.11.39:135][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1455acb38, Size=4
+[2018.06.18-08.11.39:135][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f14fdb3580, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_103:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.39:210][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f19462ec00, Size=520
+[2018.06.18-08.11.39:210][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1b7719a80, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_106:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.39:238][187]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12ce27b00, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.11.40:058][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f14fdb3580, Size=4
+[2018.06.18-08.11.40:058][187]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f185399758, Size=4
+[2018.06.18-08.11.52:534][368]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.11.52:613][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.11.52:614][368]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:11:52 pm)
+[2018.06.18-08.11.52:614][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.11.52:627][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013199s)
+[2018.06.18-08.11.52:630][368]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.11.52:632][368]LogPlayLevel: PIE: World Init took: (0.004309s)
+[2018.06.18-08.11.52:632][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.018240s)
+[2018.06.18-08.11.52:720][368]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1b7719a80, Size=520
+[2018.06.18-08.11.52:729][368]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.11.52:769][368]LogInit: FAudioDevice initialized.
+[2018.06.18-08.11.52:827][368]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.11.52:830][368]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.41.52
+[2018.06.18-08.11.52:831][368]LogWorld: Bringing up level for play took: 0.002247
+[2018.06.18-08.11.52:874][368]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 -0.545
+[2018.06.18-08.11.52:949][369]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096621 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.14.21:398][510]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.14.21:489][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.14.21:490][510]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:14:21 pm)
+[2018.06.18-08.14.21:490][510]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.14.21:499][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008860s)
+[2018.06.18-08.14.21:503][510]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.14.21:504][510]LogPlayLevel: PIE: World Init took: (0.004391s)
+[2018.06.18-08.14.21:504][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.013974s)
+[2018.06.18-08.14.21:596][510]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.14.21:642][510]LogInit: FAudioDevice initialized.
+[2018.06.18-08.14.21:710][510]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.14.21:714][510]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.44.21
+[2018.06.18-08.14.21:715][510]LogWorld: Bringing up level for play took: 0.002546
+[2018.06.18-08.14.21:750][510]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.331
+[2018.06.18-08.14.21:832][511]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.15.59:896][738]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-08.16.05:671][821]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.16.05:765][823]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.16.05:836][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.16.05:837][823]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:16:05 pm)
+[2018.06.18-08.16.05:837][823]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.16.05:844][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006931s)
+[2018.06.18-08.16.05:847][823]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.16.05:848][823]LogPlayLevel: PIE: World Init took: (0.003560s)
+[2018.06.18-08.16.05:848][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.011091s)
+[2018.06.18-08.16.05:929][823]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.16.05:972][823]LogInit: FAudioDevice initialized.
+[2018.06.18-08.16.06:026][823]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.16.06:029][823]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.46.06
+[2018.06.18-08.16.06:030][823]LogWorld: Bringing up level for play took: 0.002197
+[2018.06.18-08.16.06:056][823]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.638
+[2018.06.18-08.16.06:159][824]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.087541 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.17.16:455][355]LogSlate: Window 'Debug' being destroyed
+[2018.06.18-08.17.16:495][355]LogSlate: Window 'Debug' being destroyed
+[2018.06.18-08.19.41:687][572]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.19.41:772][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.19.41:772][572]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:19:41 pm)
+[2018.06.18-08.19.41:773][572]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.19.41:782][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009597s)
+[2018.06.18-08.19.41:785][572]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.19.41:785][572]LogPlayLevel: PIE: World Init took: (0.002876s)
+[2018.06.18-08.19.41:786][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.012993s)
+[2018.06.18-08.19.41:867][572]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.19.41:910][572]LogInit: FAudioDevice initialized.
+[2018.06.18-08.19.41:957][572]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.19.41:960][572]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.49.41
+[2018.06.18-08.19.41:961][572]LogWorld: Bringing up level for play took: 0.002521
+[2018.06.18-08.19.41:990][572]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.572
+[2018.06.18-08.19.42:083][573]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.094094 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.19.48:402][705]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-08.19.52:983][815]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Delay', from offset 587
+[2018.06.18-08.19.52:984][815]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpActEvt_Left_K2Node_InputKeyEvent_23
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+
+[2018.06.18-08.19.53:010][815]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-08.21.17:309][816]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Delay', from offset 15
+[2018.06.18-08.21.17:310][816]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+
+[2018.06.18-08.21.17:332][816]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-08.21.21:995][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.21.28:431][988]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Delay', from offset 587
+[2018.06.18-08.21.28:431][988]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpActEvt_Right_K2Node_InputKeyEvent_22
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+
+[2018.06.18-08.21.28:439][988]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-08.22.37:120][989]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Delay', from offset 15
+[2018.06.18-08.22.37:120][989]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+
+[2018.06.18-08.22.37:129][989]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-08.22.42:724][ 54]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Delay', from offset 587
+[2018.06.18-08.22.42:725][ 54]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpActEvt_Right_K2Node_InputKeyEvent_22
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+
+[2018.06.18-08.22.42:734][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-08.23.03:686][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.23.08:364][180]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.23.08:866][180]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.23.26:084][411]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.23.26:587][411]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.24.05:625][800]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.24.05:830][800]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f12ce27b00, Size=520
+[2018.06.18-08.24.05:830][800]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f165924e00, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_112:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.24.05:875][800]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f165926980, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.24.07:945][813]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.06.18-08.24.09:961][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.24.10:012][846]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.24.10:089][846]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.24.10:090][846]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:24:10 pm)
+[2018.06.18-08.24.10:090][846]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.24.10:096][846]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006630s)
+[2018.06.18-08.24.10:101][846]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.24.10:102][846]LogPlayLevel: PIE: World Init took: (0.004314s)
+[2018.06.18-08.24.10:102][846]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.011379s)
+[2018.06.18-08.24.10:174][846]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f165924e00, Size=520
+[2018.06.18-08.24.10:182][846]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.24.10:223][846]LogInit: FAudioDevice initialized.
+[2018.06.18-08.24.10:273][846]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.24.10:275][846]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 60) at 2018.06.18-13.54.10
+[2018.06.18-08.24.10:276][846]LogWorld: Bringing up level for play took: 0.001495
+[2018.06.18-08.24.10:303][846]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.884
+[2018.06.18-08.24.10:444][847]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.058766 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.24.11:762][877]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_Delay', from offset 587
+[2018.06.18-08.24.11:763][877]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:InpActEvt_Left_K2Node_InputKeyEvent_25
+	Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+
+[2018.06.18-08.24.11:774][877]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.18-08.24.18:710][878]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.058657 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_C_0', movement 'Walking'
+[2018.06.18-08.24.19:621][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.24.31:470][ 97]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.24.44:134][286]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.24.44:635][286]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.24.45:153][287]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.24.58:135][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.24.58:637][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.24.59:148][495]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.24.59:657][495]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.25.57:741][510]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.25.57:880][510]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f165926980, Size=520
+[2018.06.18-08.25.57:880][510]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f15e972700, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_118:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.25.57:915][510]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1b57f4680, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.26.01:947][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.26.02:078][565]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.18-08.26.02:149][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.18-08.26.02:150][565]PIE: New page: PIE session: BotRunLVL1 (18-Jun-2018 7:26:02 pm)
+[2018.06.18-08.26.02:150][565]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BotRunLVL1
+[2018.06.18-08.26.02:158][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008185s)
+[2018.06.18-08.26.02:162][565]LogAIModule: Creating AISystem for world BotRunLVL1
+[2018.06.18-08.26.02:163][565]LogPlayLevel: PIE: World Init took: (0.004599s)
+[2018.06.18-08.26.02:163][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BotRunLVL1.BotRunLVL1 to /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 (0.013433s)
+[2018.06.18-08.26.02:226][565]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f15e972700, Size=520
+[2018.06.18-08.26.02:234][565]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.18-08.26.02:276][565]LogInit: FAudioDevice initialized.
+[2018.06.18-08.26.02:324][565]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.18-08.26.02:327][565]LogWorld: Bringing World /Game/UEDPIE_0_BotRunLVL1.BotRunLVL1 up for play (max tick rate 0) at 2018.06.18-13.56.02
+[2018.06.18-08.26.02:328][565]LogWorld: Bringing up level for play took: 0.002091
+[2018.06.18-08.26.02:350][565]PIE: Play in editor start time for /Game/UEDPIE_0_BotRunLVL1 0.931
+[2018.06.18-08.26.33:165][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.18-08.27.08:119][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.085
+[2018.06.18-08.27.08:127][590]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.18-08.27.08:246][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.18-08.27.08:246][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.06.18-08.27.08:538][590]LogSavePackage: Save=229.22ms
+[2018.06.18-08.27.08:538][590]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonCharacter_Auto553B70662470B6FBF0F6914A9CC8A61D7.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2018.06.18-08.27.08:543][590]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset
+[2018.06.18-08.27.08:544][590]LogFileHelpers: Auto-saving content packages took 0.422
+[2018.06.18-08.28.43:330][237]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12a0b7d60, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.28.43:401][237]LogBlueprint: Error: [Compiler ] Left  cannot be placed in macro graph
+[2018.06.18-08.28.43:401][237]LogBlueprint: Error: [Compiler ] Right  cannot be placed in macro graph
+[2018.06.18-08.28.43:401][237]LogBlueprint: Error: [Compiler ] LerpTimeline  cannot be placed in macro graph
+[2018.06.18-08.28.43:401][237]BlueprintLog: New page: Collapse to Macro
+[2018.06.18-08.28.43:402][237]BlueprintLog: Error: Left  cannot be placed in macro graph
+[2018.06.18-08.28.43:402][237]BlueprintLog: Error: Right  cannot be placed in macro graph
+[2018.06.18-08.28.43:402][237]BlueprintLog: Error: LerpTimeline  cannot be placed in macro graph
+[2018.06.18-08.28.43:412][237]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f12a0b7d60, Size=4
+[2018.06.18-08.28.43:412][237]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12a0b7d60, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_122:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.28.43:423][237]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f12a0b7268, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.28.43:446][237]LogBlueprint: Warning: [Compiler ] [4461.79] Compile of  failed. 3 Fatal Issue(s) 0 Warning(s) [in 33 ms] ()
+[2018.06.18-08.28.48:700][325]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f12a0b7268, Size=4
+[2018.06.18-08.28.48:701][325]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1638d55a0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_124:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.28.48:720][325]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1638d7a80, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.28.48:780][325]LogBlueprint: Error: [Compiler ] Left  cannot be placed in function graph
+[2018.06.18-08.28.48:780][325]LogBlueprint: Error: [Compiler ] Right  cannot be placed in function graph
+[2018.06.18-08.28.48:780][325]LogBlueprint: Error: [Compiler ] LerpTimeline  cannot be placed in function graph
+[2018.06.18-08.28.48:780][325]BlueprintLog: New page: Collapse to Function
+[2018.06.18-08.28.48:781][325]BlueprintLog: Error: Left  cannot be placed in function graph
+[2018.06.18-08.28.48:781][325]BlueprintLog: Error: Right  cannot be placed in function graph
+[2018.06.18-08.28.48:781][325]BlueprintLog: Error: LerpTimeline  cannot be placed in function graph
+[2018.06.18-08.28.48:789][325]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1638d7a80, Size=4
+[2018.06.18-08.28.48:789][325]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1638d7a80, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_126:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.28.48:800][325]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1638d53e0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.28.48:822][325]LogBlueprint: Warning: [Compiler ] [4467.16] Compile of  failed. 3 Fatal Issue(s) 0 Warning(s) [in 33 ms] ()
+[2018.06.18-08.29.18:705][950]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1638d53e0, Size=4
+[2018.06.18-08.29.18:705][950]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1980b8178, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_128:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.29.18:721][950]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f1980ba6c0, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.30.03:619][745]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.06.18-08.30.03:673][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1980ba6c0, Size=4
+[2018.06.18-08.30.03:673][745]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f16868f340, Size=4, Default__SKEL_ThirdPersonCharacter_C Function /Engine/Transient.REINST_SKEL_ThirdPersonCharacter_C_131:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.30.03:738][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1b57f4680, Size=520
+[2018.06.18-08.30.03:738][745]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f164560180, Size=520, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_134:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.30.03:770][745]LogUObjectGlobals: Created PersistentFrame Addr=0x000001f185577880, Size=520, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2018.06.18-08.30.04:634][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1980b8178, Size=4
+[2018.06.18-08.30.04:634][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f16868f340, Size=4
+[2018.06.18-08.30.04:635][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f12a0b7d60, Size=4
+[2018.06.18-08.30.04:635][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1638d7a80, Size=4
+[2018.06.18-08.30.04:635][745]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1638d55a0, Size=4
+[2018.06.18-08.30.06:267][766]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-08.30.06:296][766]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2018.06.18-08.35.04:855][ 34]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.07:703][ 46]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.09:956][ 55]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.10:461][ 56]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.19:170][103]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.26:335][127]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.32:998][171]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.40:187][197]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.52:108][241]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.54:667][268]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.55:172][269]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.35.57:730][299]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.10:133][369]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.17:969][418]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.18:473][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.30:887][484]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.33:990][494]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.38:144][532]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.38:648][533]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.40:698][539]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.41:200][540]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.36.43:766][572]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.03:804][681]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.07:386][692]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.09:981][722]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f1b509ce00, Size=520
+[2018.06.18-08.37.09:981][722]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001f164560180, Size=520
+[2018.06.18-08.37.09:984][722]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BotRunLVL1' took 0.416
+[2018.06.18-08.37.09:989][722]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.06.18-08.37.10:169][722]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.06.18-08.37.10:169][722]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2018.06.18-08.37.10:442][722]LogSavePackage: Save=236.93ms
+[2018.06.18-08.37.10:442][722]LogSavePackage: Moving '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/ThirdPersonCharacter_Auto69908AD334252973ECBFB9989FC1D2FD4.tmp' to '../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
+[2018.06.18-08.37.10:447][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Sumit/Documents/Unreal Projects/BorRun/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset
+[2018.06.18-08.37.10:447][722]LogFileHelpers: Auto-saving content packages took 0.462
+[2018.06.18-08.37.18:227][784]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.19:838][812]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.20:899][816]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.21:407][817]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.21:910][818]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.25:497][852]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.30:099][867]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.35:277][903]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.36:819][928]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.44:551][956]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.45:054][957]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.45:557][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.50:189][994]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.50:694][995]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.52:243][ 17]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.37.55:359][ 26]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.00:989][ 45]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.03:037][ 51]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.04:574][ 55]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.07:141][ 85]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.08:679][ 89]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.09:182][ 90]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.17:904][120]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.20:458][128]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.24:062][161]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.25:634][166]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.27:174][189]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.27:678][190]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.31:259][223]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.31:762][224]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.34:847][258]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.35:351][259]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.46:718][317]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.49:284][347]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.49:788][348]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.51:333][372]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.38.59:079][399]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.00:671][406]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.02:735][413]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.05:860][425]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.07:941][432]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.11:030][464]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.12:097][468]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.12:602][469]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.15:735][502]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.16:739][504]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.21:876][547]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.22:880][549]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.24:999][556]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.27:086][563]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.29:671][573]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.37:381][601]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.40:469][637]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.41:472][639]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.44:562][668]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.45:628][672]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.46:132][673]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.51:272][716]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.52:277][718]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.53:827][724]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.54:833][726]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.39.56:369][730]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.07:683][795]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.09:222][819]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.09:730][820]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.10:768][824]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.11:780][826]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.12:285][827]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.14:840][857]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.17:424][866]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.18:488][870]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.20:063][874]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.22:172][899]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.25:347][911]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.25:852][912]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.29:499][946]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.30:504][948]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.39:331][999]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.42:453][ 11]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.48:681][ 34]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.50:225][ 59]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.50:731][ 60]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.52:283][ 66]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.40.55:453][ 78]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.09:298][128]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.10:302][130]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.13:390][161]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.14:457][165]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.14:962][166]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.15:466][167]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.17:531][194]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.21:123][206]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.22:189][210]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.23:767][214]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.25:826][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.28:907][255]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.34:079][296]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.36:108][301]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.38:662][327]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.44:290][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.46:841][398]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.47:345][399]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.47:850][400]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.49:422][406]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.52:593][418]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.56:680][430]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.41.59:233][459]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.00:773][463]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.03:858][475]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.05:899][480]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.08:450][509]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.10:491][538]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.16:142][578]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.20:391][593]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.23:046][604]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.24:117][608]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.24:625][609]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.25:130][610]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.27:203][618]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.28:770][623]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.33:407][641]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.34:474][645]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.34:981][646]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.36:530][652]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.44:219][679]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.45:284][683]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.45:789][684]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.48:874][715]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.49:939][719]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.50:444][720]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.56:068][757]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.58:624][788]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.42.59:129][789]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.00:666][793]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.04:360][820]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.06:914][845]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.07:419][846]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.10:517][878]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.18:813][908]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.19:818][910]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.21:875][935]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.28:031][957]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.31:158][969]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.34:800][983]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.37:922][995]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.43:096][ 15]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.45:193][ 22]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.45:700][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.47:767][ 31]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.48:833][ 35]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.43.49:337][ 36]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.01:125][ 98]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.02:156][102]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.08:313][124]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.10:375][131]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.11:999][138]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.13:031][142]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.16:086][150]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.19:172][181]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.20:237][185]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.20:743][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.22:798][213]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.24:834][218]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.26:393][224]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.27:456][228]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.27:960][229]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.38:218][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.40:307][295]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.42:875][326]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.44:423][332]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.45:489][336]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.45:994][337]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.52:157][382]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.53:224][386]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.53:727][387]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.57:859][424]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.58:926][428]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.44.59:434][429]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.00:983][435]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.02:014][439]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.08:173][461]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.11:814][475]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.12:880][479]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.13:388][480]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.15:453][488]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.18:017][497]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.20:098][504]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.41:173][604]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.42:238][608]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.42:747][609]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.43:274][611]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.44:277][613]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.46:836][645]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.47:339][646]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.49:906][672]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.50:411][673]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.53:031][703]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.56:111][713]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.57:178][717]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.57:684][718]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.45.59:235][724]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.00:238][726]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.12:546][797]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.13:614][801]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.15:671][808]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.19:315][821]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.20:378][825]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.20:882][826]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.22:436][832]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.25:517][843]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.30:170][861]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.31:204][865]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.39:969][897]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.40:974][899]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.43:562][909]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.52:828][945]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.54:377][951]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.56:459][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.59:011][989]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.46.59:514][990]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.00:020][991]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.03:142][  3]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.05:223][ 10]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.07:298][ 18]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.09:383][ 25]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.13:484][ 64]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.14:516][ 68]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.15:548][ 72]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.29:905][126]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.30:972][130]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.31:479][131]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.31:983][132]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.34:545][161]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.36:607][169]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.39:685][180]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.41:734][187]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.42:799][191]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.43:303][192]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.51:002][246]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.52:065][250]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.52:573][251]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.47.53:077][252]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.02:922][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.03:953][293]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.10:111][315]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.14:294][330]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.15:844][336]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.16:910][340]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.17:413][341]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.23:061][380]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.30:214][405]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.31:752][430]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.32:258][431]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.37:908][476]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.40:516][486]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.41:582][490]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.44:744][500]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.46:285][530]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.46:792][531]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.47:297][532]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.49:849][560]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.51:906][588]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.48.55:987][600]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.06:225][655]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.09:312][685]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.11:925][695]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.12:928][697]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.14:465][701]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.16:004][723]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.16:511][724]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.17:549][728]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.18:553][730]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.21:102][759]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.22:639][763]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.25:200][794]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.29:457][811]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.35:697][833]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.44:984][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.48:610][902]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.50:156][908]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.52:202][915]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.55:260][923]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.55:765][924]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.56:269][925]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.56:774][926]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.57:847][930]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.49.59:410][935]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.01:963][967]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.06:078][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.08:666][  9]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.12:265][ 39]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.13:329][ 43]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.13:834][ 44]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.27:173][119]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.31:375][135]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.33:450][142]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.38:123][182]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.39:189][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.39:698][187]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.40:202][188]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.41:736][217]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.42:241][218]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.47:889][259]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.49:439][265]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.50:443][267]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.52:498][299]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.53:566][303]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.54:069][304]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.58:171][342]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.50.59:203][346]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.02:282][357]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.04:377][364]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.04:882][365]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.06:953][373]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.09:516][382]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.10:519][384]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.14:111][419]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.15:654][425]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.18:220][434]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.20:328][443]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.23:971][457]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.25:035][461]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.25:539][462]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.33:236][508]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.34:300][512]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.34:807][513]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.36:338][517]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.38:890][545]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.44:547][566]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.45:550][568]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.48:105][595]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.51:190][629]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.54:309][639]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.51.55:858][645]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.01:479][663]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.04:036][690]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.11:735][741]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.12:738][743]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.15:804][773]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.18:892][808]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.23:034][823]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.23:541][824]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.24:045][825]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.27:640][861]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.30:204][870]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.33:288][880]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.34:294][882]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.35:843][888]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.36:848][890]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.38:407][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-08.52.49:688][936]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.02.02:897][992]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.12:391][127]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.17:466][147]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.24:122][169]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.37:562][240]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.38:633][244]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.39:144][245]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.39:648][246]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.48:360][294]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.48:864][295]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.53:476][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.07.58:083][346]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.05:311][393]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.07:352][398]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.10:031][409]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.15:696][428]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.17:236][456]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.17:741][457]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.19:291][487]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.29:068][523]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.33:739][538]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.34:242][539]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.36:288][565]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.37:833][590]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.38:342][591]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.42:945][606]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.44:992][612]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.45:496][613]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.58:891][679]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.08.59:961][683]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.05:071][699]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.05:575][700]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.08:135][733]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.09:678][757]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.10:185][758]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.16:341][779]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.20:433][792]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.22:476][818]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.25:564][852]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.26:570][854]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.28:626][880]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.29:632][882]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.33:734][914]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.39:974][936]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.43:051][969]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.43:554][970]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.47:186][  1]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.51:295][ 14]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.56:985][ 33]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.09.57:489][ 34]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.10.00:046][ 62]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.10.02:156][ 91]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.10.03:163][ 93]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.06.18-09.10.05:727][101]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
